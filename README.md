@@ -1,140 +1,80 @@
-# Placement Cell Management System
+# Academic Architect — Placement Console
 
-A full-stack web application for managing college placements with role-based access for admins, students, and recruiters.
+A premium, full-stack Placement Cell Management System designed for modern educational institutions. Built with **React**, **Node.js/Express**, and **MySQL**, featuring a refined **Material Design 3** aesthetic and comprehensive placement workflow management.
 
-## Features
+![Login Page Mocker](/api/placeholder/1500/800) *(Modern Glassmorphism UI)*
 
-- **User Roles**: Admin, Student, Recruiter
-- **Authentication**: JWT-based secure login
-- **Admin Portal**: Dashboard with stats, CRUD operations for students, companies, jobs
-- **Student Portal**: View jobs, apply, track applications
-- **Recruiter Portal**: Manage companies and jobs, view applicants
-- **Database**: MySQL with normalized schema
-- **Frontend**: React with Tailwind CSS
+## ✨ Key Features
 
-## Tech Stack
+### 🚀 Placement Workflow Management
+- **Placement Board**: A real-time split view of placed vs. unplaced students with advanced filtering.
+- **Bulk Assign**: Efficiently assign multiple students to a job drive at once with built-in eligibility filtering.
+- **Eligibility Engine**: Automatic matching of students to jobs based on branch and CGPA criteria.
+- **Batch Processing**: Shortlist, accept, or reject multiple applicants in seconds.
 
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL
-- **Frontend**: React.js, Tailwind CSS
-- **Authentication**: JWT, bcrypt
+### 📊 Advanced Analytics
+- **Placement Intelligence**: Live dashboard tracking placement rates, branch-wise performance, and salary trends.
+- **Salary Analytics**: Visualize average, highest, and lowest packages (LPA).
+- **Recruiter Metrics**: Track top companies and hiring conversion rates.
 
-## Setup Instructions
+### 🍱 Premium UI/UX
+- **Academic Architect Design System**: A high-end look using **Tailwind CSS**, **Glassmorphism**, and **Bento-grid** layouts.
+- **Role-Based Dashboards**: Tailored experiences for Admins, Students, and Recruiters.
+- **Responsive Shell**: Modern sidebar navigation with Material Symbols and subtle micro-animations.
 
-### Prerequisites
+---
 
-- Node.js (v14+)
-- MySQL Server
-- npm or yarn
+## 🛠️ Technology Stack
+- **Frontend**: React (Hooks, Context API), Tailwind CSS, Material Symbols.
+- **Backend**: Node.js, Express.
+- **Database**: MySQL (Connection Pooling, Prepared Statements).
+- **Auth**: JWT (JSON Web Tokens) with Bcrypt password hashing.
 
-### Backend Setup
+---
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
+## 🚦 Getting Started
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+### 1. Database Setup
+Create a MySQL database named `placement_cell` and import the schema:
+```bash
+mysql -u root -p placement_cell < database/schema.sql
+```
 
-3. Set up MySQL database:
-   - Create a database named `placement_cell`
-   - Run the schema script:
-     ```bash
-     mysql -u root -p placement_cell < ../database/schema.sql
-     ```
-   - Run the sample data script:
-     ```bash
-     mysql -u root -p placement_cell < ../database/sample_data.sql
-     ```
+### 2. Configure Environment
+Update `backend/.env` with your MySQL credentials:
+```env
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=placement_cell
+JWT_SECRET=your_secret_key
+PORT=5001
+```
 
-4. Configure environment variables:
-   - Update `.env` file with your MySQL credentials
+### 3. Install & Seed
+```bash
+# Install root dependencies
+npm install
 
-5. Start the backend server:
-   ```bash
-   npm run dev
-   ```
-   Server will run on http://localhost:5000
+# Setup database tables and seed mock data
+npm run db:setup --prefix backend
+node backend/scripts/seedMockData.js
+```
 
-### Frontend Setup
+### 4. Run the Project
+```bash
+npm start
+```
+- **Frontend**: http://localhost:3001
+- **Backend**: http://localhost:5001
 
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
+---
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 🔑 Sample Credentials
+- **Admin**: `admin@college.edu` / `password`
+- **Student**: `student1@college.edu` / `password`
+- **Recruiter**: `recruiter1@company.com` / `password`
 
-3. Start the React app:
-   ```bash
-   npm start
-   ```
-   App will run on http://localhost:3000
+---
 
-### Default Credentials
-
-- **Admin**: admin@college.edu / password
-- **Student**: student1@college.edu / password
-- **Recruiter**: recruiter1@company.com / password
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-
-### Students (Admin only)
-- `GET /api/students` - Get all students
-- `GET /api/students/:id` - Get student by ID
-- `PUT /api/students/:id` - Update student
-- `DELETE /api/students/:id` - Delete student
-
-### Companies
-- `GET /api/companies` - Get all companies
-- `POST /api/companies` - Create company (Recruiter)
-- `PUT /api/companies/:id` - Update company
-- `DELETE /api/companies/:id` - Delete company
-
-### Jobs
-- `GET /api/jobs` - Get all jobs
-- `POST /api/jobs` - Create job (Recruiter)
-- `PUT /api/jobs/:id` - Update job
-- `DELETE /api/jobs/:id` - Delete job
-
-### Applications
-- `POST /api/applications` - Apply for job (Student)
-- `GET /api/applications/student` - Get student's applications
-- `GET /api/applications/job/:jobId` - Get applications for job (Recruiter/Admin)
-- `PUT /api/applications/:id/status` - Update application status
-
-### Dashboard
-- `GET /api/dashboard/stats` - Get admin stats
-
-## Database Schema
-
-The MySQL database consists of the following tables:
-- `users` - User accounts
-- `students` - Student profiles
-- `companies` - Company information
-- `jobs` - Job postings
-- `applications` - Job applications
-
-All tables are normalized to 3NF with proper foreign keys and constraints.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
+Built with ❤️ by the Academic Architect Team.
