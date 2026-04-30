@@ -1,0 +1,3131 @@
+[
+  {
+    "company": "75way Technologies",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.E./MTech",
+    "cgpa": 5.5,
+    "role": "SDE-II"
+  },
+  {
+    "company": "A21.ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, ELE, MCA, M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "AI Engineer"
+  },
+  {
+    "company": "Aakash Institute",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, M.Sc.",
+    "cgpa": 6.0,
+    "role": "Assistant Lecturer"
+  },
+  {
+    "company": "AB InBev GCC Services India Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA",
+    "cgpa": 0,
+    "role": "Apprentice based on Projects {Junior Data scientis"
+  },
+  {
+    "company": "Abbott",
+    "type": "Intern",
+    "branches": "BME",
+    "cgpa": 0,
+    "role": "Biomedical Interns"
+  },
+  {
+    "company": "Accenture",
+    "type": "FTE",
+    "branches": "M.Sc., M.E./MTech, MCA, B.E. All Branches",
+    "cgpa": 0,
+    "role": "Associate Software Engineer (ASE)"
+  },
+  {
+    "company": "ACME Group",
+    "type": "Intern",
+    "branches": "ECE, ELE, MEE, CIE",
+    "cgpa": 6.0,
+    "role": "Not Disclosed Yet"
+  },
+  {
+    "company": "Addverb Technologies",
+    "type": "Intern+FTE",
+    "branches": "CHE, COE, COPC, COBS, ENC, ECE, ELE, EEC, EIC, MEC, MEE",
+    "cgpa": 6.0,
+    "role": "Mobile Robotics - Software (Navigators)"
+  },
+  {
+    "company": "Advantage Club",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEC, MEE, M.Sc., MCA, M.E./MTech",
+    "cgpa": 6.5,
+    "role": "Software Developer - Backend Intern + Full Time"
+  },
+  {
+    "company": "Advantage Club",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 0,
+    "role": "Business Analyst : Founder's Office"
+  },
+  {
+    "company": "AdvaRisk",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "Junior Data Analyst"
+  },
+  {
+    "company": "Airtel",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC,",
+    "cgpa": 7.0,
+    "role": "Digital"
+  },
+  {
+    "company": "Algo8 AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Data Engineer"
+  },
+  {
+    "company": "Align Tech",
+    "type": "Intern",
+    "branches": "M.E./MTech",
+    "cgpa": 0,
+    "role": "C++"
+  },
+  {
+    "company": "Alstom",
+    "type": "FTE",
+    "branches": "M.E./MTech, ELE, MEC, MEE",
+    "cgpa": 6.0,
+    "role": "\u2014"
+  },
+  {
+    "company": "Altair",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, MCA",
+    "cgpa": 0,
+    "role": "Software Developmen t"
+  },
+  {
+    "company": "Altrodav Technologies Pvt. Ltd. (Meetmux)",
+    "type": "Intern",
+    "branches": "M.E./MTech, M.Sc., B.E. All Branches",
+    "cgpa": 0,
+    "role": "AI/ML Developer Intern/ iOS Developer Intern/ Prod"
+  },
+  {
+    "company": "Amadeus Labs",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 7.5,
+    "role": "Software Developmen t Engineer 1"
+  },
+  {
+    "company": "Amazon (University Talent Acquisition - AUTA)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA, M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "SDE Intern"
+  },
+  {
+    "company": "Ambak Fintech",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MEE, MEC",
+    "cgpa": 7.0,
+    "role": "Product Intern"
+  },
+  {
+    "company": "Amdocs",
+    "type": "FTE",
+    "branches": "COPC, COE,",
+    "cgpa": 6.0,
+    "role": "Software"
+  },
+  {
+    "company": "American Express",
+    "type": "Intern+FTE",
+    "branches": "ELE, EIC, EEC, ENC, ECE, COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Product Developmen t"
+  },
+  {
+    "company": "American Express",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Management Trainee (Credit and Fraud Risk - Produc"
+  },
+  {
+    "company": "Amity Software Limited",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA",
+    "cgpa": 8.0,
+    "role": "Software Trainee"
+  },
+  {
+    "company": "Anand Automotive Pvt Ltd Group",
+    "type": "Intern+FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "Graduate Engineering Trainee"
+  },
+  {
+    "company": "Anand Automotive Pvt Ltd Group",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 0,
+    "role": "Application Developmen t for Gabriel India Limited"
+  },
+  {
+    "company": "Anvento IT Labs",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, M.E./MTech, MCA",
+    "cgpa": 6.0,
+    "role": "SDE / AI Automation Engineer"
+  },
+  {
+    "company": "Anvento IT Labs",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC,",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer"
+  },
+  {
+    "company": "Apollo Supply Chain",
+    "type": "Intern",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "Process Excellence"
+  },
+  {
+    "company": "Apple",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 8.0,
+    "role": "SWE Intern Ops BPR team"
+  },
+  {
+    "company": "Apple",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 8.0,
+    "role": "Data Science and Machine Learning Intern \u2013 Supply "
+  },
+  {
+    "company": "Apple",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ENC, ECE, ELE, EEC, EIC",
+    "cgpa": 7.0,
+    "role": "Software Engineering Intern IS&T"
+  },
+  {
+    "company": "Apple",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Apple Services Engineering Software Engineering In"
+  },
+  {
+    "company": "Apple",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 7.0,
+    "role": "Software Engineering Intern (Apple Ads)"
+  },
+  {
+    "company": "Arista Networks",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Not Known"
+  },
+  {
+    "company": "ARM",
+    "type": "Intern",
+    "branches": "M.E./MTech, COE, COPC, ENC, EEC, ELE, ECE, COBS, EIC",
+    "cgpa": 7.0,
+    "role": "Hardware Eng/Intern"
+  },
+  {
+    "company": "ASCENT K (AMBER GROUP INDIA)",
+    "type": "FTE",
+    "branches": "ENC, ECE, EIC, EEC, ELE, CIE, MEE, CHE, M.E./MTech",
+    "cgpa": 0,
+    "role": "G.E.T. (PLANT BASED ROLE)"
+  },
+  {
+    "company": "Asian Paints Ltd",
+    "type": "FTE",
+    "branches": "ELE, EIC, MEC,",
+    "cgpa": 0,
+    "role": "Instrumentat"
+  },
+  {
+    "company": "Aspire Talent Innovations",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Data Engineer / Analytics Intern"
+  },
+  {
+    "company": "Atkins Realis",
+    "type": "Intern",
+    "branches": "ELE, ECE, M.E./MTech, CIE",
+    "cgpa": 0,
+    "role": "Apprentice / Graduate Role"
+  },
+  {
+    "company": "Atomberg Tech nologies",
+    "type": "Intern",
+    "branches": "ECE",
+    "cgpa": 0,
+    "role": "Embedded Firmware Test Intern"
+  },
+  {
+    "company": "Attryb",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Full Stack Engineer"
+  },
+  {
+    "company": "Attryb",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, ECE, ENC, EEC, EIC, COBS",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer"
+  },
+  {
+    "company": "AutoAdobe",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, MEE, MEC, COBS",
+    "cgpa": 0,
+    "role": "Drone Manufacturi ng & Training Intern / Additive "
+  },
+  {
+    "company": "Avaada Group",
+    "type": "FTE",
+    "branches": "ELE, MEE, CIE, EIC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee - Procurement"
+  },
+  {
+    "company": "Averixis",
+    "type": "Intern+FTE",
+    "branches": "B.E. All",
+    "cgpa": 0,
+    "role": "BDA"
+  },
+  {
+    "company": "Axis Bank",
+    "type": "FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 6.0,
+    "role": "Business Intelligence Unit"
+  },
+  {
+    "company": "Axtria",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Analyst (Data Science and New Age Technology)"
+  },
+  {
+    "company": "Axxela",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 5.0,
+    "role": "Intern"
+  },
+  {
+    "company": "Azalio Technologies Pvt Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA",
+    "cgpa": 6.0,
+    "role": "Intern"
+  },
+  {
+    "company": "Bain (BCN)",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ENC, ECE, EEC, EIC, ELE, BME, MEE, MEC",
+    "cgpa": 6.0,
+    "role": "Intern"
+  },
+  {
+    "company": "Bajaj Auto",
+    "type": "FTE",
+    "branches": "M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Post Graduate Trainee Engineer"
+  },
+  {
+    "company": "Barclays",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Not Known"
+  },
+  {
+    "company": "Belzabar",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 8.0,
+    "role": "Software Intern"
+  },
+  {
+    "company": "Bharat Digital",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Build for Bharat Fellowship"
+  },
+  {
+    "company": "Billion BaseCamp",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, ELE, EIC, ECE",
+    "cgpa": 6.0,
+    "role": "Relationship Manager"
+  },
+  {
+    "company": "Biofield Power Pvt. Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEC, MEE, MCA",
+    "cgpa": 0,
+    "role": "App Developer Product Manager Hardware / Sensor & "
+  },
+  {
+    "company": "Biotrum Inc",
+    "type": "FTE",
+    "branches": "BT, M.E./MTech, M.Sc.",
+    "cgpa": 7.0,
+    "role": "Business Developmen t Executive"
+  },
+  {
+    "company": "BIRLA PIVOT (Aditya Birla Group)",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 8.0,
+    "role": "Tech Intern - Backend Engineer / QA Automation / F"
+  },
+  {
+    "company": "Blackrock",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Bluno Technologies Pvt Limited",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 7.5,
+    "role": "Strategy & Ops Associate Intern"
+  },
+  {
+    "company": "BNP Paribas India Solutions Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EIC, EEC, ELE, MCA, ECE",
+    "cgpa": 7.0,
+    "role": "Intern via Hackathon ( Application Developmen t an"
+  },
+  {
+    "company": "BNY",
+    "type": "PPO",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Investment Management"
+  },
+  {
+    "company": "Booking Holdings India",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Technology Intern"
+  },
+  {
+    "company": "Boston Consulting Group (BCG)",
+    "type": "FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Year Tenure Graduate Apprentices hip Program (Ov"
+  },
+  {
+    "company": "Boston Scientific India",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 0,
+    "role": "TLDP Intern"
+  },
+  {
+    "company": "Boston Scientific India",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 0,
+    "role": "Data Engineer PI"
+  },
+  {
+    "company": "Bounteous x Accolite",
+    "type": "Intern",
+    "branches": "B.E. All Branches, M.E./MTech, MCA",
+    "cgpa": 6.0,
+    "role": "Software Engineer /Data Engineer/SM FC/Test Engine"
+  },
+  {
+    "company": "Bread Financial",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 6.0,
+    "role": "Product Owner"
+  },
+  {
+    "company": "BSES - RAJDHANI & YAMUNA POWER LTD New Delhi",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainee"
+  },
+  {
+    "company": "Bureau of Indian Standards (BIS)",
+    "type": "Intern",
+    "branches": "ECE",
+    "cgpa": 0,
+    "role": "Winter Internship 2025 for Standardizat ion Activi"
+  },
+  {
+    "company": "Buzz Clan",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA",
+    "cgpa": 7.0,
+    "role": "Graduate Trainee: AI | Engineering | Cyber Securit"
+  },
+  {
+    "company": "Caelius Consulting",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA",
+    "cgpa": 7.5,
+    "role": "Technical Associate"
+  },
+  {
+    "company": "Care Health Ins urance (CHI)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Software Intern (IT)"
+  },
+  {
+    "company": "Carrier",
+    "type": "FTE",
+    "branches": "ENC, ECE, EIC, EEC, ELE, MEC, MEE",
+    "cgpa": 7.0,
+    "role": "Graduate Engineer Trainee - HVAC"
+  },
+  {
+    "company": "CDIL",
+    "type": "Intern",
+    "branches": "ECE",
+    "cgpa": 8.0,
+    "role": "Project based Intern (Embedded Software / Automati"
+  },
+  {
+    "company": "Celebal Technologies",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "Not Known"
+  },
+  {
+    "company": "Celebal Technologies",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech, MCA",
+    "cgpa": 0,
+    "role": "Data Engineer"
+  },
+  {
+    "company": "Celigo",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ENC, EEC, ELE, EIC, COBS",
+    "cgpa": 8.0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Centre for Development of Telematics(C- DOT) - Govt of",
+    "type": "Intern",
+    "branches": "",
+    "cgpa": 7.0,
+    "role": "Intern (R&D)"
+  },
+  {
+    "company": "Centre for Development of Telematics(C- DOT) - Govt of India",
+    "type": "FTE",
+    "branches": "ECE",
+    "cgpa": 0,
+    "role": "SCIENTIST- \u2018B\u2019 (Electronics & Communicat ion Engin"
+  },
+  {
+    "company": "Chase",
+    "type": "Intern",
+    "branches": "",
+    "cgpa": 0,
+    "role": "Engineer"
+  },
+  {
+    "company": "Clarivate",
+    "type": "FTE",
+    "branches": "Not Known",
+    "cgpa": 0,
+    "role": "Patent Search Analyst"
+  },
+  {
+    "company": "Clazar",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 8.0,
+    "role": "Product Support Intern (Fully Remote)"
+  },
+  {
+    "company": "CNH Industrial",
+    "type": "FTE",
+    "branches": "MEE, MEC, ECE",
+    "cgpa": 7.0,
+    "role": "\u2014"
+  },
+  {
+    "company": "Coca Cola",
+    "type": "FTE",
+    "branches": "MEC, EIC, ELE, MEE",
+    "cgpa": 0,
+    "role": "IGNITE Trainee"
+  },
+  {
+    "company": "Codju Patiala",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 8.5,
+    "role": "AI Content Developmen t & Platform Intern / Produc"
+  },
+  {
+    "company": "Coforge",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 6.5,
+    "role": "GET"
+  },
+  {
+    "company": "Cognida",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA",
+    "cgpa": 7.0,
+    "role": "Software Developer"
+  },
+  {
+    "company": "Colt Technology Services",
+    "type": "Intern",
+    "branches": "ECE",
+    "cgpa": 0,
+    "role": "Apprentices hip Trainee \u2013 Service Delivery"
+  },
+  {
+    "company": "Convexicon Software Solutions India Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 8.0,
+    "role": "ML Engineering Intern (Vision/LLM)"
+  },
+  {
+    "company": "Convrse Spaces",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 6.5,
+    "role": "Associate Project Manager"
+  },
+  {
+    "company": "Cred",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ECE, ENC, EIC",
+    "cgpa": 0,
+    "role": "Backend Intern"
+  },
+  {
+    "company": "Credgenics Noida",
+    "type": "Intern",
+    "branches": "ELE, EEC, ECE, ENC, EIC",
+    "cgpa": 6.0,
+    "role": "Associate Product Manager / P.M."
+  },
+  {
+    "company": "Crompton Greaves Consumer Electricals Limited",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 0,
+    "role": "GET (MECHANIC AL ENGINEERIN G) (Role 1: Mechanical"
+  },
+  {
+    "company": "Crossing Hurdle s",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEC, MEE, MCA",
+    "cgpa": 6.5,
+    "role": "Founder's Of fice Associat e"
+  },
+  {
+    "company": "CtrlS Datacenters",
+    "type": "FTE",
+    "branches": "ELE, EIC, ECE, CIE, MEE",
+    "cgpa": 7.5,
+    "role": "Associate Engineer (Electrical ) | Associate Engin"
+  },
+  {
+    "company": "Cywarden Global Services Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.Sc.",
+    "cgpa": 0,
+    "role": "AI/ML | Junior Analyst - Cybersecurit y"
+  },
+  {
+    "company": "Dassault Syst\u00e8mes",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ELE, ECE, ENC, EIC, MEC, MEE, M.E./MTech, BME",
+    "cgpa": 6.0,
+    "role": "Industry Process Consultant"
+  },
+  {
+    "company": "Dayananda Sagar University",
+    "type": "FTE",
+    "branches": "M.E./MTech, MCA, M.Sc.",
+    "cgpa": 6.0,
+    "role": "Not Declared"
+  },
+  {
+    "company": "DecisionTree",
+    "type": "FTE",
+    "branches": "ENC, ECE, EIC, EEC, ELE, BME, BT, CHE, CIE, MEE, MEC",
+    "cgpa": 0,
+    "role": "Data Analyst"
+  },
+  {
+    "company": "Deloitte",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "SDE"
+  },
+  {
+    "company": "Deloitte",
+    "type": "FTE",
+    "branches": "CIE, COE, COPC, ECE, ENC, COBS, ELE, EEC, EIC, MCA",
+    "cgpa": 6.5,
+    "role": "Analyst Equivalent US-India"
+  },
+  {
+    "company": "Deloitte",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 6.5,
+    "role": "Analyst T&T - Customer - Sales and Service"
+  },
+  {
+    "company": "Deloitte",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "US-India"
+  },
+  {
+    "company": "Development Environergy Services Pvt Ltd",
+    "type": "FTE",
+    "branches": "M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Not Declared"
+  },
+  {
+    "company": "Dhurin",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, M.Sc., M.E./MTech, ECE",
+    "cgpa": 7.5,
+    "role": "Business Analyst"
+  },
+  {
+    "company": "Digit Group",
+    "type": "FTE",
+    "branches": "CIE, MEE, CHE, BT, BME",
+    "cgpa": 7.0,
+    "role": "Trainee Analyst"
+  },
+  {
+    "company": "DigitalXForce",
+    "type": "Intern",
+    "branches": "COBS, COE, COPC",
+    "cgpa": 8.0,
+    "role": "Not Announced"
+  },
+  {
+    "company": "Dotpe",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 7.0,
+    "role": "Front-End Developer"
+  },
+  {
+    "company": "DotPe",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.0,
+    "role": "Full Stack Engineer | Frontend Engineer | DevOps E"
+  },
+  {
+    "company": "Ecolab",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 6.0,
+    "role": "Trainee"
+  },
+  {
+    "company": "Editorialist India Pvt. Ltd.",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ENC, ECE",
+    "cgpa": 8.0,
+    "role": "Software Developmen t Intern"
+  },
+  {
+    "company": "Eightfold.ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.5,
+    "role": "Agentic AI - Engineering Intern"
+  },
+  {
+    "company": "ELEATION Services Pvt. Ltd.",
+    "type": "FTE",
+    "branches": "ENC, ECE, EIC, EEC, ELE, MEE, MEC, M.E./MTech",
+    "cgpa": 0,
+    "role": "CAE Project Engineer"
+  },
+  {
+    "company": "Eli Lilly and Company",
+    "type": "Intern",
+    "branches": "EEC, ENC, COBS, COPC, COE",
+    "cgpa": 7.0,
+    "role": "Tech Intern"
+  },
+  {
+    "company": "Ellocent Labs IT Solutions Pvt. Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE, EIC",
+    "cgpa": 7.0,
+    "role": "Web Developmen t Intern | Data Scientist Intern"
+  },
+  {
+    "company": "eNest Technologies Private Limited",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "Data Scientist"
+  },
+  {
+    "company": "Engagely.Ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE",
+    "cgpa": 6.0,
+    "role": "Implementati on Engineer"
+  },
+  {
+    "company": "Engagely.Ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA, M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Golang Developer | React Developer| Python Develop"
+  },
+  {
+    "company": "EPAM",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 7.0,
+    "role": "Engineer"
+  },
+  {
+    "company": "Ericsson Global India Service",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 0,
+    "role": "GET Intern: R&D"
+  },
+  {
+    "company": "Ericsson Global India Service Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 6.5,
+    "role": "GET: SDE"
+  },
+  {
+    "company": "Ericsson Global India Service Pvt. Ltd.",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "CSS(CS Branches) : Integration engineer"
+  },
+  {
+    "company": "Estee Advisors Pvt Ltd",
+    "type": "Intern",
+    "branches": "M.E./MTech, COBS, COE, COPC",
+    "cgpa": 0,
+    "role": "Not Known"
+  },
+  {
+    "company": "Exicom Tele- Systems Ltd.",
+    "type": "Intern+FTE",
+    "branches": "M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Not Declared"
+  },
+  {
+    "company": "Exicom Tele- Systems Ltd.",
+    "type": "Intern+FTE",
+    "branches": "ECE, ELE, EIC",
+    "cgpa": 7.0,
+    "role": "Not Announced"
+  },
+  {
+    "company": "EXL Services",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 6.0,
+    "role": "Associate Developer (Band A2)"
+  },
+  {
+    "company": "Exotel",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Software Developmen t Intern"
+  },
+  {
+    "company": "Expedia Group",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer I"
+  },
+  {
+    "company": "Exposys Data Labs",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "Data Scientist"
+  },
+  {
+    "company": "EY India (Ernst & Young)",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 6.5,
+    "role": "Associate Consultant Tech: Cyber"
+  },
+  {
+    "company": "FACE Prep",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, M.E./MTech",
+    "cgpa": 0,
+    "role": "Assistant Professor"
+  },
+  {
+    "company": "FarEye",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ECE, ENC, EIC",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer-1"
+  },
+  {
+    "company": "Fidelity International",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 0,
+    "role": "Technology & Digital Team"
+  },
+  {
+    "company": "FitNambi Sports",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA",
+    "cgpa": 0,
+    "role": "Skillset based roles: 1. React 2. React Native 3. "
+  },
+  {
+    "company": "Flights and Travel",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, EEC, ENC, M.E./MTech",
+    "cgpa": 6.5,
+    "role": "Full Stack Developmen t Intern"
+  },
+  {
+    "company": "Flipkart",
+    "type": "Intern",
+    "branches": "COBS, COE, COPC, ECE, ENC, EEC, ELE, EIC, BT, MEE, MEC",
+    "cgpa": 0,
+    "role": "Application Engineer 1"
+  },
+  {
+    "company": "FNZ",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE",
+    "cgpa": 8.0,
+    "role": "Intern Analyst Tester"
+  },
+  {
+    "company": "Fourth Partner Energy",
+    "type": "FTE",
+    "branches": "MEE, EEC, ELE, ECE, ENC, EIC, MEC",
+    "cgpa": 0,
+    "role": "Business Developmen t, Projects & Asset Management"
+  },
+  {
+    "company": "Foxo",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.E./MTech",
+    "cgpa": 7.5,
+    "role": "AI Engineer /Backend Engineer /Frontend Engineer"
+  },
+  {
+    "company": "Futures First",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Intern (Financial Markets) and Trainee- Internatio"
+  },
+  {
+    "company": "Futures First Academy",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ENC",
+    "cgpa": 0,
+    "role": "Financial Markets Intern"
+  },
+  {
+    "company": "GameChange S olar",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech",
+    "cgpa": 0,
+    "role": "Commissioni ng Engineer"
+  },
+  {
+    "company": "GENLOOP AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 8.5,
+    "role": "AI Intern"
+  },
+  {
+    "company": "GEP Worldwide",
+    "type": "FTE",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 6.5,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "GK WINDING WIRES LTD",
+    "type": "FTE",
+    "branches": "MEE, MEC, ELE",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee"
+  },
+  {
+    "company": "Godrej Properties",
+    "type": "FTE",
+    "branches": "CIE",
+    "cgpa": 0,
+    "role": "Operations- Project Execution"
+  },
+  {
+    "company": "GreyB",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 7.0,
+    "role": "AI Engineer"
+  },
+  {
+    "company": "GreyB",
+    "type": "Intern+FTE",
+    "branches": "M.E./MTech, M.Sc., ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 7.0,
+    "role": "Research Analyst"
+  },
+  {
+    "company": "GreyB",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Software Developmen t Engineer"
+  },
+  {
+    "company": "Grindwell Norton Ltd (Saint Gobain India Group)",
+    "type": "Intern+FTE",
+    "branches": "CIE, MEE, MEC, EIC, ELE, M.E./MTech, M.Sc.",
+    "cgpa": 7.0,
+    "role": "Multiple (17 roles)"
+  },
+  {
+    "company": "Grow24.ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 8.0,
+    "role": "Full Stack Developmen t"
+  },
+  {
+    "company": "Growth Jockey",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ELE, ENC, EEC, EIC, COBS",
+    "cgpa": 6.5,
+    "role": "Tech: Softwa re Developmen t Engineer (SDE)"
+  },
+  {
+    "company": "GrowthArc Technologies",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 7.5,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Gruner Renewable Energy Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ECE, EIC, ELE, MEE, MEC, CHE, CIE",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainees (GETs)"
+  },
+  {
+    "company": "Hartek Group",
+    "type": "Intern",
+    "branches": "ELE, EIC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainees (GETs)"
+  },
+  {
+    "company": "Hashira Works",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 6.5,
+    "role": "Software Developer"
+  },
+  {
+    "company": "Havai Aerial Systems",
+    "type": "Intern",
+    "branches": "MEE, MEC, M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Robotics & Mechatronic s Engineer"
+  },
+  {
+    "company": "Havells India",
+    "type": "Intern+FTE",
+    "branches": "M.E./MTech",
+    "cgpa": 0,
+    "role": "GET/ PGET"
+  },
+  {
+    "company": "Havells India",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ECE",
+    "cgpa": 9.0,
+    "role": "Graduate Engineer Trainee"
+  },
+  {
+    "company": "Hero Steels",
+    "type": "Intern",
+    "branches": "MEE",
+    "cgpa": 7.0,
+    "role": "Steel industry"
+  },
+  {
+    "company": "Hewlett Packard Enterprises",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ECE, ENC, EEC, EIC",
+    "cgpa": 0,
+    "role": "MIST - AIDE"
+  },
+  {
+    "company": "HEX Advisory Group",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 0,
+    "role": "Associate Consultant"
+  },
+  {
+    "company": "Hike Pvt Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 0,
+    "role": "Business Developmen t Manager/Exe cutive"
+  },
+  {
+    "company": "Hindustan Unilever Limited (HUL)",
+    "type": "Intern",
+    "branches": "MEE, ELE, CHE, EIC",
+    "cgpa": 6.0,
+    "role": "Graduate Apprentice Trainee (GAT)"
+  },
+  {
+    "company": "Honasa Consumer Ltd (MamaEarth)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC",
+    "cgpa": 0,
+    "role": "Analytics Intern"
+  },
+  {
+    "company": "Honasa Consumer Ltd (MamaEarth)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "E- Commerce Intern"
+  },
+  {
+    "company": "Honeywell",
+    "type": "Intern",
+    "branches": "EIC, EEC",
+    "cgpa": 0,
+    "role": "Process Information & Control Intern"
+  },
+  {
+    "company": "Honeywell",
+    "type": "Intern",
+    "branches": "ECE",
+    "cgpa": 6.0,
+    "role": "Embedded Role"
+  },
+  {
+    "company": "Hooman Labs",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 7.0,
+    "role": "Frontend Engineer"
+  },
+  {
+    "company": "HPCL-Mittal Energy Limited (HMEL)",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 6.5,
+    "role": "GET (electives in cybersecurit y and AI/ML preferr"
+  },
+  {
+    "company": "HPCL-Mittal Energy Limited (HMEL)",
+    "type": "FTE",
+    "branches": "ELE, EIC, MEE, CHE",
+    "cgpa": 6.5,
+    "role": "Graduate Engineer Trainees (GETs) at Bhatinda"
+  },
+  {
+    "company": "HUBER+SUHNE R Electronics Pvt. Ltd.",
+    "type": "FTE",
+    "branches": "EEC, ENC, ECE, EIC, ELE",
+    "cgpa": 6.0,
+    "role": "Field Application Engineer"
+  },
+  {
+    "company": "Hyundai AutoEver India Pvt Ltd",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 6.0,
+    "role": "Not Announced"
+  },
+  {
+    "company": "Hyundai India",
+    "type": "FTE",
+    "branches": "M.E./MTech",
+    "cgpa": 6.0,
+    "role": "Post Graduate Engineer Trainee"
+  },
+  {
+    "company": "IBM",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Customer Success Manager Technical Specialist"
+  },
+  {
+    "company": "IBM",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 6.0,
+    "role": "Cloud Full Stack Engineer"
+  },
+  {
+    "company": "iCuerious Research Services LLP",
+    "type": "Intern",
+    "branches": "M.E./MTech, MEE",
+    "cgpa": 7.0,
+    "role": "Patent Research Analyst"
+  },
+  {
+    "company": "IDBI Bank",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Assistant Manager (IT)"
+  },
+  {
+    "company": "IDFC First Bank",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 6.0,
+    "role": "Associate Data Engineer"
+  },
+  {
+    "company": "IDFC First Bank",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, MCA, M.Sc.",
+    "cgpa": 5.0,
+    "role": "Emerging Bankers Program ( PG Diploma in Banking a"
+  },
+  {
+    "company": "Ikarus 3D",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, M.E./MTech",
+    "cgpa": 0,
+    "role": "AI/ML Associate"
+  },
+  {
+    "company": "Incedo",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE, EIC, ELE",
+    "cgpa": 0,
+    "role": "AI Engineer"
+  },
+  {
+    "company": "Incedo",
+    "type": "Intern+FTE",
+    "branches": "COE, ENC, EEC, ELE, ECE, COPC, COBS, EIC, MCA",
+    "cgpa": 8.0,
+    "role": "Software Engineer Trainee"
+  },
+  {
+    "company": "Increff",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, ECE, ENC, COBS, EEC",
+    "cgpa": 8.0,
+    "role": "SDE-I"
+  },
+  {
+    "company": "India",
+    "type": "Unknown",
+    "branches": "",
+    "cgpa": 0,
+    "role": ""
+  },
+  {
+    "company": "Inera - Absolute Group Organisation",
+    "type": "Intern",
+    "branches": "M.E./MTech, M.Sc.",
+    "cgpa": 6.0,
+    "role": "Intern R&D"
+  },
+  {
+    "company": "Infinite Locus",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "Data Management Consultant - Data Migration | Inte"
+  },
+  {
+    "company": "Info Edge India Ltd.",
+    "type": "Intern+FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer (SDE)"
+  },
+  {
+    "company": "Info Edge India Ltd.",
+    "type": "Intern+FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineer in Test (SDET) at N"
+  },
+  {
+    "company": "Infosys",
+    "type": "FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 6.5,
+    "role": "Systems Engineer (Trainee)"
+  },
+  {
+    "company": "Infosys",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Digital Specialist Engineer (Trainee)"
+  },
+  {
+    "company": "Infosys",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Power Internship 2026"
+  },
+  {
+    "company": "Inkers Technology Private Limited, Bengaluru",
+    "type": "Intern",
+    "branches": "CIE",
+    "cgpa": 0,
+    "role": "BIM Engineer (Building Information Modelling) 20 v"
+  },
+  {
+    "company": "Innosilica",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, MCA, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "FTE"
+  },
+  {
+    "company": "Insurance Dekho",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 5.0,
+    "role": "Associate Product Manager"
+  },
+  {
+    "company": "Insurance Dekho",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE, EIC",
+    "cgpa": 0,
+    "role": "Graduate Trainee (SDE-1)"
+  },
+  {
+    "company": "Intact Insurance",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ELE, ENC, ECE, EIC",
+    "cgpa": 0,
+    "role": "Intern (SE/DE/AUT OMATION TESTER/DEV OPS)"
+  },
+  {
+    "company": "ION Group",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Software Developer"
+  },
+  {
+    "company": "iPrime Services / Veoci Inc",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Process Digitization Specialists / Solution Engine"
+  },
+  {
+    "company": "Iprime Services Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 0,
+    "role": "Intern"
+  },
+  {
+    "company": "iqigai.ai by fractal Analytics",
+    "type": "Intern",
+    "branches": "MCA",
+    "cgpa": 0,
+    "role": "Apprentices hip Program (Data and AI-driven roles)"
+  },
+  {
+    "company": "IQuest Institute",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ECE, MEE, M.Sc.",
+    "cgpa": 7.0,
+    "role": "Teaching"
+  },
+  {
+    "company": "IQuest Institute",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE, MEC, MEE, M.Sc., EIC",
+    "cgpa": 8.0,
+    "role": "Physics, Chemistry & Mathematics Trainee"
+  },
+  {
+    "company": "ISGEC Heavy Engineering Ltd.",
+    "type": "Intern+FTE",
+    "branches": "MEE",
+    "cgpa": 6.5,
+    "role": "GET"
+  },
+  {
+    "company": "Issquared",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.E./MTech",
+    "cgpa": 6.5,
+    "role": "Engineers / Developers / Analysts"
+  },
+  {
+    "company": "Jacobs Solutions India Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "MEE, CHE, BT, EIC, CIE, ELE, ENC, ECE, EEC, M.E./MTech",
+    "cgpa": 0,
+    "role": "Apprentice Graduate Engineers and Apprentice Post "
+  },
+  {
+    "company": "Jaipur Rugs",
+    "type": "Intern+FTE",
+    "branches": "ELE, EIC, ECE, EEC, MEC, MEE, CIE",
+    "cgpa": 0,
+    "role": "Industrial Engineer (Graduate Trainee)"
+  },
+  {
+    "company": "Jaro Education",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, M.Sc., MCA",
+    "cgpa": 0,
+    "role": "Graduate Trainee / Management Trainee"
+  },
+  {
+    "company": "JFE Shoji Steel India Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "ELE, EIC, MEE, MEC",
+    "cgpa": 0,
+    "role": "GET / Trainee"
+  },
+  {
+    "company": "Jindal Steel",
+    "type": "FTE",
+    "branches": "MEE, MEC, EIC, ELE",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainees (GETs)"
+  },
+  {
+    "company": "Jindal Steel",
+    "type": "FTE",
+    "branches": "MEE, ELE, CHE, CIE, EIC, BT, MEC",
+    "cgpa": 0,
+    "role": "GET (Plant Based Role)"
+  },
+  {
+    "company": "Johnson & Johnson",
+    "type": "Intern",
+    "branches": "BT, BME",
+    "cgpa": 0,
+    "role": "MedTech Sales Intern"
+  },
+  {
+    "company": "Josh Technology Group",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, M.E./MTech, MCA, ECE",
+    "cgpa": 0,
+    "role": "Software Developer"
+  },
+  {
+    "company": "JP Morgan",
+    "type": "PPO",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Software"
+  },
+  {
+    "company": "JP Morgan Chase",
+    "type": "Intern+FTE",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Software Engineer (Full-time Analyst)"
+  },
+  {
+    "company": "JP Morgan Chase",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ENC, COBS, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "CIB Research & Analytics Program - Banking"
+  },
+  {
+    "company": "JSW (Jindal Group)",
+    "type": "FTE",
+    "branches": "M.Sc., MEE, EIC, CHE, CIE, MEC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainee"
+  },
+  {
+    "company": "JSW Motors (Jindal Group)",
+    "type": "FTE",
+    "branches": "MEE, MEC, CHE, ELE, EEC, ECE, EIC, ENC, COBS, COE, COPC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee"
+  },
+  {
+    "company": "JTP Co., Ltd. Japan (International Offer)",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "System Engineer (AI, networking data engineering, "
+  },
+  {
+    "company": "Juniper Networking",
+    "type": "FTE",
+    "branches": "",
+    "cgpa": 8.4,
+    "role": ""
+  },
+  {
+    "company": "Kalvium",
+    "type": "Intern",
+    "branches": "M.E./MTech",
+    "cgpa": 0,
+    "role": "Academic Mentor"
+  },
+  {
+    "company": "KDDL Limited",
+    "type": "FTE",
+    "branches": "MEE, MEC, CHE",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee (Trainee (Ist year) / Op"
+  },
+  {
+    "company": "Keyence",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.Sc., M.E./MTech, MCA",
+    "cgpa": 0,
+    "role": "Korean Account Specialist"
+  },
+  {
+    "company": "Keysight",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech",
+    "cgpa": 0,
+    "role": "JDs | AI&ML Developmen t Engineer | ECAD Intern "
+  },
+  {
+    "company": "Keysight",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 8.5,
+    "role": "JDs (SDE | Business"
+  },
+  {
+    "company": "Kickdrum",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 8.0,
+    "role": "\u2014"
+  },
+  {
+    "company": "KIET Deemed to be University, Ghaziabad",
+    "type": "FTE",
+    "branches": "M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "Assistant Professor"
+  },
+  {
+    "company": "KPMG",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 6.0,
+    "role": "Analyst Digital Strategy - GCC"
+  },
+  {
+    "company": "KPMG",
+    "type": "FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 6.0,
+    "role": "Analyst- Digital Enablement- Financial Services Te"
+  },
+  {
+    "company": "KPMG Global Services (KGS) India",
+    "type": "Intern+FTE",
+    "branches": "M.E./MTech, COE, COPC, COBS",
+    "cgpa": 6.0,
+    "role": "\u2014"
+  },
+  {
+    "company": "L&T Finance",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 0,
+    "role": "Intern \u2013 AI/ML &"
+  },
+  {
+    "company": "Lano AgriTech",
+    "type": "Intern",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "Engineering Associate"
+  },
+  {
+    "company": "Larsen & Toubro",
+    "type": "Intern+FTE",
+    "branches": "",
+    "cgpa": 0,
+    "role": "GRADUATE ENGINEER TRAINEES (GET) (1 Ceramic Techno"
+  },
+  {
+    "company": "Lokal Apps",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.0,
+    "role": "React Native | Android Developer"
+  },
+  {
+    "company": "Lovely Professional University (LPU) Phagwara, Punjab",
+    "type": "FTE",
+    "branches": "M.E./MTech, COPC, COE, COBS",
+    "cgpa": 6.0,
+    "role": "Professors/A ssociate Professors/ Assistant Profes"
+  },
+  {
+    "company": "Lumber",
+    "type": "Intern",
+    "branches": "COE, COPC, ELE, ECE, ENC, EEC, EIC, COBS",
+    "cgpa": 8.0,
+    "role": "Full Stack Developer"
+  },
+  {
+    "company": "Lumenci",
+    "type": "Intern",
+    "branches": "ELE, EIC, EEC, ENC, ECE, M.E./MTech",
+    "cgpa": 0,
+    "role": "Associate Consultant"
+  },
+  {
+    "company": "Lyftr AI",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Full-Stack Developer / Backend Developer"
+  },
+  {
+    "company": "Maccaferri Infrastructure Pvt Limited (MIPL)",
+    "type": "FTE",
+    "branches": "CIE, MEE, M.E./MTech, COE, COPC, ENC, ECE",
+    "cgpa": 0,
+    "role": "GET/ Trainee Engineer"
+  },
+  {
+    "company": "MAF Retail LLC",
+    "type": "Intern",
+    "branches": "M.E./MTech, COPC, COE, COBS",
+    "cgpa": 8.5,
+    "role": ""
+  },
+  {
+    "company": "MAGNUS VENTURES",
+    "type": "Intern",
+    "branches": "CIE",
+    "cgpa": 0,
+    "role": "Project Execution Engineer"
+  },
+  {
+    "company": "Mahindra - Automotive & Farm Equipment Sectors (AFS)",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE, EIC, MEE, MEC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainee (GET) [Businesses : Auto"
+  },
+  {
+    "company": "MakeMyTrip",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 0,
+    "role": "Technology Intern"
+  },
+  {
+    "company": "Maq Software Noida",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 6.0,
+    "role": "Software Engineer 1"
+  },
+  {
+    "company": "Maruti Suzuki",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ELE, MEE",
+    "cgpa": 6.5,
+    "role": "GET"
+  },
+  {
+    "company": "Maruti Suzuki",
+    "type": "FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "GET SERVICE (Territory Service Manager)"
+  },
+  {
+    "company": "Maverick Simulation Solutions Limited",
+    "type": "Intern",
+    "branches": "ENC, ECE, EIC, ELE, BME, BT, MEC, M.E./MTech, M.Sc.",
+    "cgpa": 6.0,
+    "role": "Area Sales Trainee"
+  },
+  {
+    "company": "Membrane Technologies Chandigarh",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 7.5,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Mercer Mettl",
+    "type": "Intern",
+    "branches": "ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "AI | Computer Vision - Intern"
+  },
+  {
+    "company": "Mercer Mettl",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "International Sales (EU/UK) / APAC"
+  },
+  {
+    "company": "Microsoft",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "PPO Full- time offer"
+  },
+  {
+    "company": "Midea India Pvt Ltd",
+    "type": "Intern+FTE",
+    "branches": "ELE, ECE, MEC, MEE",
+    "cgpa": 8.0,
+    "role": "GET"
+  },
+  {
+    "company": "MKS Instruments",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA, ENC, ECE, EIC, EEC, ELE, BME, MEC, MEE",
+    "cgpa": 0,
+    "role": "AI / ML Intern / CSE / IT Intern QA"
+  },
+  {
+    "company": "Morgan Stanley",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Not Known"
+  },
+  {
+    "company": "Motherson Technology Services Limited",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA",
+    "cgpa": 7.0,
+    "role": "SDLC"
+  },
+  {
+    "company": "Mphasis",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 6.3,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "My Captain",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, MCA, M.Sc.",
+    "cgpa": 0,
+    "role": "Business Growth Associate"
+  },
+  {
+    "company": "Mylo",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.0,
+    "role": "Software Developer"
+  },
+  {
+    "company": "Myntra (University Relations)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ECE, ENC, EEC, EIC, ELE",
+    "cgpa": 0,
+    "role": "Business Analyst"
+  },
+  {
+    "company": "Myntra University Relations",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 6.5,
+    "role": "SDE Internship"
+  },
+  {
+    "company": "Nagarro Software",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, ELE, M.E./MTech, MCA",
+    "cgpa": 6.0,
+    "role": "Full Stack Developer with: 1) AI- SDLC / 2) Cloud "
+  },
+  {
+    "company": "Namekart",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Enterprise Domain Sales Associate (EDSA)"
+  },
+  {
+    "company": "Natwest Group",
+    "type": "FTE",
+    "branches": "COE, COPC, COBS, ECE, EEC, EIC, ENC, ELE",
+    "cgpa": 0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Navi",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, ELE",
+    "cgpa": 8.5,
+    "role": "SDE Intern (with PPO opportunity as SDE 1)"
+  },
+  {
+    "company": "Navi",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, ELE, MEC, MEE, BME",
+    "cgpa": 8.0,
+    "role": "Data Analyst Intern"
+  },
+  {
+    "company": "Navyug Infosolutions",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, MEE, MEC",
+    "cgpa": 6.0,
+    "role": "Java, C++, Python & Software Engineer"
+  },
+  {
+    "company": "Navyug Infosolutions",
+    "type": "Intern",
+    "branches": "ENC, ECE, EIC, EEC, ELE, MEE, MEC",
+    "cgpa": 0,
+    "role": "Embedded & Robotics Engineer/ Mechatronic s Engine"
+  },
+  {
+    "company": "NeenOpal",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 6.0,
+    "role": "Data Analyst"
+  },
+  {
+    "company": "Neterwala Group",
+    "type": "Intern+FTE",
+    "branches": "MEC, MEE",
+    "cgpa": 6.5,
+    "role": "Not Declared"
+  },
+  {
+    "company": "Netsmartz Infotech Pvt. Ltd.",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 8.5,
+    "role": "Junior Software Engineer Artificial Intelligence &"
+  },
+  {
+    "company": "Netsmartz Infotech Pvt. Ltd.",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.5,
+    "role": "Junior Software Engineer - Artificial Intelligence"
+  },
+  {
+    "company": "Netweb Technol ogies",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA, M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "Full Stack Developer (Python + React) \u2013 Fresher"
+  },
+  {
+    "company": "NEUMAN & ESSER",
+    "type": "Intern",
+    "branches": "ECE, ELE, MEE, MEC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee (GET)"
+  },
+  {
+    "company": "New Horizons Consulting Engineers LLP",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 7.0,
+    "role": "GET/ Trainee Engineer"
+  },
+  {
+    "company": "Newgen Software",
+    "type": "FTE",
+    "branches": "MCA",
+    "cgpa": 0,
+    "role": "Software Test Engineer"
+  },
+  {
+    "company": "Niyo Solutions Inc.",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Software Developer"
+  },
+  {
+    "company": "Noon Technologies",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 0,
+    "role": "Analytics (Noon Food)"
+  },
+  {
+    "company": "NoPaperForms Solutions Limited (Meritto)",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 6.0,
+    "role": "Management Trainee - Product"
+  },
+  {
+    "company": "Novac Technology Solutions Pvt Ltd (A Shriram Group Company)",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 0,
+    "role": "Associate Business Trainee"
+  },
+  {
+    "company": "Novasensa",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 0,
+    "role": "AI and Data Engineer - Retrieval Systems, Automati"
+  },
+  {
+    "company": "NPS Prism ( By Bain & Company)",
+    "type": "Intern",
+    "branches": "MEC, COE, COPC, COBS",
+    "cgpa": 7.0,
+    "role": "NPS Prism Intern"
+  },
+  {
+    "company": "NuvertOS",
+    "type": "Intern",
+    "branches": "M.E./MTech, COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.5,
+    "role": "SDE Intern"
+  },
+  {
+    "company": "Nvidia",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech",
+    "cgpa": 7.8,
+    "role": "Hardware Engineering"
+  },
+  {
+    "company": "Nvidia",
+    "type": "Intern",
+    "branches": "COE, COPC,",
+    "cgpa": 7.8,
+    "role": "System"
+  },
+  {
+    "company": "Nvidia",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ECE, ENC, EIC, M.E./MTech",
+    "cgpa": 7.8,
+    "role": "Software Compiler Verification"
+  },
+  {
+    "company": "NXP Semiconductors India",
+    "type": "Intern",
+    "branches": "ENC, ECE, EIC",
+    "cgpa": 0,
+    "role": "Digital,Analo g Engineer and Embedded Software (3 "
+  },
+  {
+    "company": "OmneNEST Technologies",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 6.0,
+    "role": "Software development | Frontend engineer| Backend "
+  },
+  {
+    "company": "OniT Services",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "Data Science"
+  },
+  {
+    "company": "OPRO Pvt Ltd.",
+    "type": "Intern",
+    "branches": "ELE",
+    "cgpa": 7.5,
+    "role": "Junior Lighting Automation Engineer"
+  },
+  {
+    "company": "Optum",
+    "type": "FTE",
+    "branches": "Not Known",
+    "cgpa": 0,
+    "role": "Analytics Developmen t Program Associate: Data Sci"
+  },
+  {
+    "company": "Optum",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, EIC, ELE, MCA",
+    "cgpa": 0,
+    "role": "TDP Software Developmen t Associate"
+  },
+  {
+    "company": "Oracle India Pvt Ltd",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ECE, EIC, ENC, EEC, ELE, M.E./MTech",
+    "cgpa": 0,
+    "role": "Associate Software Engineer/Ap plication Developer"
+  },
+  {
+    "company": "Oyo Rooms",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Graduate Trainee \u2013 Business Analyst"
+  },
+  {
+    "company": "Oyo Rooms",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS",
+    "cgpa": 8.5,
+    "role": "Graduate Trainee Business Analyst"
+  },
+  {
+    "company": "Pandit Deendayal Energy University",
+    "type": "Intern",
+    "branches": "M.E./MTech, MCA, M.Sc.",
+    "cgpa": 0,
+    "role": "Adhoc Faculty"
+  },
+  {
+    "company": "Park+",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 7.0,
+    "role": "SDE"
+  },
+  {
+    "company": "Park+",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE",
+    "cgpa": 7.0,
+    "role": "Software Developmen t Engineer I (Backend)"
+  },
+  {
+    "company": "Partnr",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC",
+    "cgpa": 0,
+    "role": "Software Developmen t Intern (including backend an"
+  },
+  {
+    "company": "Paytm",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 8.0,
+    "role": "QA Intern"
+  },
+  {
+    "company": "PharmaACE",
+    "type": "FTE",
+    "branches": "BT, BME, M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "Trainee Analyst"
+  },
+  {
+    "company": "PharmaACE",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, M.Sc.",
+    "cgpa": 0,
+    "role": "Tech Role"
+  },
+  {
+    "company": "Pharmeasy",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ENC, EEC",
+    "cgpa": 8.0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "PharmEasy",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 8.0,
+    "role": "Backend Intern"
+  },
+  {
+    "company": "Philips",
+    "type": "Intern",
+    "branches": "COPC, COE,",
+    "cgpa": 7.0,
+    "role": "Software"
+  },
+  {
+    "company": "PhysicsWallah",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, M.E./MTech",
+    "cgpa": 0,
+    "role": "Full Stack Engineer"
+  },
+  {
+    "company": "Pibit.ai",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Backend Intern"
+  },
+  {
+    "company": "Pilgrim India",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Process Excellence Intern"
+  },
+  {
+    "company": "Pluswealth Capital Management LLP",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ELE, ENC, ECE",
+    "cgpa": 8.0,
+    "role": "Software Compiler Verification"
+  },
+  {
+    "company": "Polycab Wires India Limited",
+    "type": "FTE",
+    "branches": "ECE, ELE, EIC, MEE, MEC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee (GET) - Sales"
+  },
+  {
+    "company": "Preferred Square",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MEE, MCA",
+    "cgpa": 0,
+    "role": "AI Engineer / Software Developer Engineer"
+  },
+  {
+    "company": "Pretlist India Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "COPC, COBS, COE",
+    "cgpa": 9.0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Prime numbers Technologies",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, MCA, M.E./MTech",
+    "cgpa": 8.0,
+    "role": "Software Developmen t Engineer \u2013 Intern"
+  },
+  {
+    "company": "ProcDNA",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ECE, EIC, ENC, ELE, EEC, MEC, MEE, BME",
+    "cgpa": 7.0,
+    "role": "Business Analyst"
+  },
+  {
+    "company": "Procol AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 0,
+    "role": "Business Developmen t Intern"
+  },
+  {
+    "company": "Prosper.io",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC",
+    "cgpa": 0,
+    "role": "Frontend/Ba ckend Intern"
+  },
+  {
+    "company": "Punjab Chemicals and Crop Protection Limited (PCCPL)",
+    "type": "Intern+FTE",
+    "branches": "EIC, MEE, CHE, M.Sc.",
+    "cgpa": 0,
+    "role": "Internship & GET"
+  },
+  {
+    "company": "Purple Block",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "React.js Developer"
+  },
+  {
+    "company": "Pvt. Ltd.",
+    "type": "Unknown",
+    "branches": "ECE, EEC, EIC",
+    "cgpa": 2.0,
+    "role": ""
+  },
+  {
+    "company": "QuickHyre AI",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Data Analyst Intern (Remote)"
+  },
+  {
+    "company": "Quisitive Busineses",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Data Science Analyst (Mathematic al Pattern Resear"
+  },
+  {
+    "company": "RAIK Solutions India Private Limited",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 6.5,
+    "role": "Trainee - Software Developer"
+  },
+  {
+    "company": "Rally Vision",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, EEC, ECE, ENC, EIC",
+    "cgpa": 7.0,
+    "role": "Software Engineering / Machine Learning"
+  },
+  {
+    "company": "RALSON INDIA",
+    "type": "FTE",
+    "branches": "CHE, M.Sc.",
+    "cgpa": 0,
+    "role": "Lab & Quality"
+  },
+  {
+    "company": "Razorpay",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ELE, EEC, ENC, COBS, EIC",
+    "cgpa": 7.0,
+    "role": "SDE Intern"
+  },
+  {
+    "company": "RBH Solutions Private Limited",
+    "type": "Intern",
+    "branches": "ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 0,
+    "role": "Associate Trainee \u2013 SCADA / Relay Engineer"
+  },
+  {
+    "company": "RCPL",
+    "type": "FTE",
+    "branches": "ELE, MEE, EIC",
+    "cgpa": 6.0,
+    "role": "GET"
+  },
+  {
+    "company": "Reliance BP Mo bility Ltd",
+    "type": "FTE",
+    "branches": "MEE, ELE, CIE, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "GET"
+  },
+  {
+    "company": "Reliance Industries Ltd",
+    "type": "FTE",
+    "branches": "CHE, MEE, ELE, CIE, EIC, MEC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainees"
+  },
+  {
+    "company": "Reliance Industries Ltd",
+    "type": "FTE",
+    "branches": "EIC, MEC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineering Trainee (GET) (Manufacturi ng"
+  },
+  {
+    "company": "Relinns",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Intern (Multiple JDs Tech and Non Tech MEAN/MERN ("
+  },
+  {
+    "company": "RENXO Technologies",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 6.0,
+    "role": "AI/ML & Generative AI Embedded & Edge Developmen t"
+  },
+  {
+    "company": "Right Wave Info Solutions (Pvt) Ltd.",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, MCA, M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Associate MarTech (Trainee)"
+  },
+  {
+    "company": "Rippling",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 8.0,
+    "role": "SDE Intern"
+  },
+  {
+    "company": "RISE11 AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA, M.E./MTech",
+    "cgpa": 0,
+    "role": "Intern (Project wise)"
+  },
+  {
+    "company": "Rockwell Automation, Inc.",
+    "type": "Intern",
+    "branches": "ECE, EIC, ELE",
+    "cgpa": 0,
+    "role": "Apprentices hip via Rockwell Apprentice Program"
+  },
+  {
+    "company": "Rohde & Schwarz India",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, M.E./MTech",
+    "cgpa": 0,
+    "role": "RF Test System Integration"
+  },
+  {
+    "company": "RPSG Group",
+    "type": "FTE",
+    "branches": "ELE",
+    "cgpa": 6.0,
+    "role": "Management Trainee"
+  },
+  {
+    "company": "RSG Group",
+    "type": "FTE",
+    "branches": "CHE",
+    "cgpa": 0,
+    "role": "Techno commercial role - Polymer deptt."
+  },
+  {
+    "company": "rtCamp\u2019s",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Associate Software Engineer"
+  },
+  {
+    "company": "Rusk Media",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 7.5,
+    "role": "Product Management Intern"
+  },
+  {
+    "company": "Sagacious Elevate",
+    "type": "Intern",
+    "branches": "M.E./MTech, COE, COPC, ECE, ELE, ENC, EEC, EIC, COBS, MCA",
+    "cgpa": 6.0,
+    "role": "Gen AI R&D Intern (Software Developer)"
+  },
+  {
+    "company": "Sagacious Elevate",
+    "type": "Intern",
+    "branches": "M.E./MTech, ECE, ELE, EEC, ENC, EIC, COBS, COE, COPC",
+    "cgpa": 6.0,
+    "role": "Patent Analyst Intern"
+  },
+  {
+    "company": "Sales Code",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ENC, EEC",
+    "cgpa": 7.0,
+    "role": "Tech: Software Engineer Trainee (Full-Stack Develo"
+  },
+  {
+    "company": "Samsung C&T I ndia Pvt. Ltd",
+    "type": "FTE",
+    "branches": "CHE, CIE, ELE, MEE, EIC",
+    "cgpa": 7.0,
+    "role": "GET"
+  },
+  {
+    "company": "Samsung R&D Institute India- Noida (SRI- Noida)",
+    "type": "Intern",
+    "branches": "M.E./MTech",
+    "cgpa": 0,
+    "role": "R&D Intern"
+  },
+  {
+    "company": "SanDisk India DDC Pvt Ltd",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ECE, M.E./MTech",
+    "cgpa": 0,
+    "role": "Software Developmen t Engineering"
+  },
+  {
+    "company": "Scaler",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, BME, ENC, ECE, EIC, EEC, ELE, MEC, MEE",
+    "cgpa": 0,
+    "role": "Skill Developmen t Consultant"
+  },
+  {
+    "company": "Schneider Electric",
+    "type": "FTE",
+    "branches": "ENC, ECE, EIC, EEC, ELE, M.E./MTech, MCA",
+    "cgpa": 6.5,
+    "role": "Graduate Engineer Trainee (Multiple Divisions avai"
+  },
+  {
+    "company": "Servosys Solutions",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 7.5,
+    "role": "Software Developmen t at Noida / Mumbai"
+  },
+  {
+    "company": "Shipsy",
+    "type": "Intern+FTE",
+    "branches": "MCA, B.E. All Branches",
+    "cgpa": 0,
+    "role": "Presales Consultant"
+  },
+  {
+    "company": "Shipsy",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC,",
+    "cgpa": 0,
+    "role": "Applied AI Engineer \u2013"
+  },
+  {
+    "company": "SHNOOR INTERNATIONA L LLC",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, ELE, EEC",
+    "cgpa": 7.5,
+    "role": "Software Engineer Trainee: Gen Al/ Salesforce Deve"
+  },
+  {
+    "company": "Shodh AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, M.E./MTech, MCA",
+    "cgpa": 7.0,
+    "role": "Junior Dev (Full Stack/Syste ms Engineering)"
+  },
+  {
+    "company": "Shorthills AI",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech, MCA",
+    "cgpa": 8.0,
+    "role": "Data Engineering and AI Engineering"
+  },
+  {
+    "company": "Shubham Flexible Packaging Machines Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "MEE, MEC",
+    "cgpa": 7.0,
+    "role": "Graduate Engineer Trainee (GET)"
+  },
+  {
+    "company": "Siemens EDA (India) Pvt. Ltd. (Mentor Graphics)",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ENC, COBS, EEC, ELE, EIC",
+    "cgpa": 8.0,
+    "role": "Student Intern (Software Profile)"
+  },
+  {
+    "company": "Siemens Energy",
+    "type": "Intern",
+    "branches": "M.E./MTech, CHE, CIE, ELE, ECE, EIC, MEE",
+    "cgpa": 6.0,
+    "role": "(SPEL Academy Program)"
+  },
+  {
+    "company": "Siemens Energy",
+    "type": "Intern",
+    "branches": "COE, COPC, COBS, ECE,",
+    "cgpa": 7.0,
+    "role": "\u2014"
+  },
+  {
+    "company": "Sigmoid Analytics",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, MCA",
+    "cgpa": 7.0,
+    "role": "Data Analyst Trainee"
+  },
+  {
+    "company": "Sigmoid Analytics",
+    "type": "Intern",
+    "branches": "ECE, COPC, COE, ENC, COBS, EIC, EEC, ELE",
+    "cgpa": 7.0,
+    "role": "Intern (Data and Software Engineering)"
+  },
+  {
+    "company": "Silicon Labs India",
+    "type": "Intern",
+    "branches": "ELE, ECE, ENC, EEC, EIC, M.E./MTech",
+    "cgpa": 8.0,
+    "role": "Digital IP,RTL Design & Verification Engineer Inte"
+  },
+  {
+    "company": "Sirius AI",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE, M.Sc., M.E./MTech, MCA",
+    "cgpa": 0,
+    "role": "Analyst / Consultant"
+  },
+  {
+    "company": "Smart Energy Water (SEW)",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ENC, ECE, EEC",
+    "cgpa": 7.0,
+    "role": "Product Delivery & Support: 7 | Product Management"
+  },
+  {
+    "company": "SML Mahindra L td",
+    "type": "FTE",
+    "branches": "MEE, MEC, ELE",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainees (GETs)"
+  },
+  {
+    "company": "Sonalika Tractors",
+    "type": "FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee \u2013 R & D"
+  },
+  {
+    "company": "Sonalika Tractors",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 7.5,
+    "role": "Executive Assistant"
+  },
+  {
+    "company": "Sonalika Tractors",
+    "type": "Intern+FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "R&D Team"
+  },
+  {
+    "company": "Sonalika Tractors",
+    "type": "Intern+FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee (GET)"
+  },
+  {
+    "company": "Soulflower",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE",
+    "cgpa": 0,
+    "role": "Transformati onal Practice Intern"
+  },
+  {
+    "company": "Soulflower",
+    "type": "Intern",
+    "branches": "MCA, COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Tech & Automation Internship | Data Analytics Inte"
+  },
+  {
+    "company": "Sowaka",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 6.5,
+    "role": "Growth Intern"
+  },
+  {
+    "company": "Sprinklr",
+    "type": "Intern",
+    "branches": "COE, COPC, ENC, EEC, COBS",
+    "cgpa": 7.0,
+    "role": "Cloud Engineering"
+  },
+  {
+    "company": "Statcon Electronics India Limited / Statcon Powtech Pvt. Ltd Noida",
+    "type": "Intern",
+    "branches": "ELE, EEC, EIC, ECE, COPC, COE, COBS, MEE, MEC",
+    "cgpa": 0,
+    "role": "Analyst / Digital Transformati on Intern"
+  },
+  {
+    "company": "Suraasa",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA",
+    "cgpa": 6.0,
+    "role": "Quality Assurance Analyst"
+  },
+  {
+    "company": "Swiggy",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, M.E./MTech, MCA",
+    "cgpa": 6.0,
+    "role": "Associate Software Developmen t Engineer"
+  },
+  {
+    "company": "Swiggy",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, M.E./MTech, ENC",
+    "cgpa": 6.0,
+    "role": "Remote Engineering Intern"
+  },
+  {
+    "company": "Synfara Tech",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC, MCA",
+    "cgpa": 6.0,
+    "role": "Business Growth Associate (Intern)"
+  },
+  {
+    "company": "TAFE Motors and Tractors Ltd (Eicher Tractors)",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 6.0,
+    "role": "Not Known"
+  },
+  {
+    "company": "Taiyo.ai",
+    "type": "Intern",
+    "branches": "B.E. All Branches, MCA, M.E./MTech, M.Sc.",
+    "cgpa": 0,
+    "role": "Front End Engineer"
+  },
+  {
+    "company": "Tata 1mg",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 7.5,
+    "role": "Business Analyst"
+  },
+  {
+    "company": "Tata Consultancy Services (TCS)",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, MCA, M.Sc.",
+    "cgpa": 6.0,
+    "role": "Prime"
+  },
+  {
+    "company": "Tata Power",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC, M.E./MTech",
+    "cgpa": 0,
+    "role": "Graduate Engineer Trainee \u2013 Full Stack Engineer an"
+  },
+  {
+    "company": "Tata Steel Limited",
+    "type": "FTE",
+    "branches": "CHE, CIE, ENC, ECE, EIC, EEC, ELE, MEE, MEC",
+    "cgpa": 0,
+    "role": "Engineer Trainee (ASPIRING ENGINEER'S PROGRAM- 202"
+  },
+  {
+    "company": "TecHindustan",
+    "type": "Intern",
+    "branches": "B.E. All",
+    "cgpa": 0,
+    "role": "Project"
+  },
+  {
+    "company": "Techolution",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, MCA",
+    "cgpa": 6.5,
+    "role": "AI Python - Intern"
+  },
+  {
+    "company": "Techolution",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, M.E./MTech",
+    "cgpa": 7.0,
+    "role": "Generative AI Intern"
+  },
+  {
+    "company": "TechSnitch",
+    "type": "Intern",
+    "branches": "MCA",
+    "cgpa": 6.0,
+    "role": "Technical Intern"
+  },
+  {
+    "company": "Thapar School of Liberal Arts & Sciences (TSLAS)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Website Developmen t Interns"
+  },
+  {
+    "company": "The Future University",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC, ELE, CHE, CIE",
+    "cgpa": 0,
+    "role": "AI Native Innovator \u2013 AI Growth Lab Intern"
+  },
+  {
+    "company": "Think Exam - A Ginger Webs Company",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, ELE",
+    "cgpa": 6.0,
+    "role": "Software Trainee"
+  },
+  {
+    "company": "TIET Centre of Excellence in Data Science and Artificial Intelligence (CoDSaI)",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Project Semester Internship (NLP, Python, Transfor"
+  },
+  {
+    "company": "TIET-Bajaj Engineering Skills Training (BEST) Partnership Initiative",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "week Internship- cum- Certification Program Adv"
+  },
+  {
+    "company": "To The New",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, MCA, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "TravClan",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Business Analyst Intern"
+  },
+  {
+    "company": "Tredence Analytics",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "AI Engineering Intern"
+  },
+  {
+    "company": "Trident",
+    "type": "FTE",
+    "branches": "CHE, EEC, ELE, ECE, ENC, EIC, MEE, MEC",
+    "cgpa": 6.0,
+    "role": "Trident Cam pus Placeme nt Program"
+  },
+  {
+    "company": "Triotech",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Backend Engineering"
+  },
+  {
+    "company": "TripFactory.com",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Back-End Developer"
+  },
+  {
+    "company": "TVS Motors",
+    "type": "FTE",
+    "branches": "ECE, ENC, EIC",
+    "cgpa": 6.0,
+    "role": "Junior"
+  },
+  {
+    "company": "TVS Motors",
+    "type": "PPO",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Design Engineer-"
+  },
+  {
+    "company": "Ubiquiti Inc",
+    "type": "FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 0,
+    "role": "Network / Technical Support Engineer"
+  },
+  {
+    "company": "UIX Labs",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC",
+    "cgpa": 0,
+    "role": "Software Engineer"
+  },
+  {
+    "company": "Ultimate Kronos Group (UKG) Noida",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 7.0,
+    "role": "Technical Shared Services (TSS)"
+  },
+  {
+    "company": "University Institute of Engineering (UIE) Chandigarh University, Kharar",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, M.E./MTech, MCA",
+    "cgpa": 0,
+    "role": "Assistant Professor / Associate Professor / Profes"
+  },
+  {
+    "company": "Unlox Academy",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, EEC, ECE, EIC, MCA",
+    "cgpa": 0,
+    "role": "Business Developmen t Associate"
+  },
+  {
+    "company": "Unthinkable Solutions LLP",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, COBS, ENC, EEC, ECE, EIC",
+    "cgpa": 0,
+    "role": ""
+  },
+  {
+    "company": "Unthinkable Solutions LLP",
+    "type": "FTE",
+    "branches": "B.E. All Branches, M.E./MTech, MCA",
+    "cgpa": 0,
+    "role": "TBD"
+  },
+  {
+    "company": "UPL",
+    "type": "FTE",
+    "branches": "MEE, CHE, EIC, M.E./MTech",
+    "cgpa": 6.0,
+    "role": "Engineer Trainee (Production)"
+  },
+  {
+    "company": "Urban Company (Earlier UrbanClap)",
+    "type": "FTE",
+    "branches": "BME, BT, ELE, EEC, EIC, ENC, ECE, MEC, MEE",
+    "cgpa": 0,
+    "role": "Category Manager (Business Operations) at Dubai, U"
+  },
+  {
+    "company": "Urban Company (Earlier UrbanClap)",
+    "type": "Intern+FTE",
+    "branches": "ECE, ENC, EIC, EEC, ELE, MEC, MEE, BME",
+    "cgpa": 7.0,
+    "role": "Category Manager: Business Operations"
+  },
+  {
+    "company": "UST",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 0,
+    "role": "Graduate Data Engineer, ML /AI / Gen AI Engineer"
+  },
+  {
+    "company": "Varroc Group",
+    "type": "FTE",
+    "branches": "ECE, ENC, ELE, MEE, MEC",
+    "cgpa": 7.0,
+    "role": "Manufacturi ng Engineering/ Industrial Engineering"
+  },
+  {
+    "company": "Vecmocon Technologies Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "ECE, EIC, ELE, MEE, MEC, ENC",
+    "cgpa": 0,
+    "role": "PCB Design Engineer"
+  },
+  {
+    "company": "Vecmocon Technologies Pvt. Ltd.",
+    "type": "Intern",
+    "branches": "MEE",
+    "cgpa": 0,
+    "role": "Mechanical Engineering Intern"
+  },
+  {
+    "company": "Vedanta",
+    "type": "FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 6.0,
+    "role": "GET- Mechanical"
+  },
+  {
+    "company": "Vedanta",
+    "type": "FTE",
+    "branches": "EIC, MEE, MEC",
+    "cgpa": 6.0,
+    "role": "Graduate Engineer Trainee (Non Mining)- Instrument"
+  },
+  {
+    "company": "Vegazva",
+    "type": "Intern",
+    "branches": "B.E. All Branches",
+    "cgpa": 7.0,
+    "role": "GMC Trainee Commercial"
+  },
+  {
+    "company": "VELTRIK.EV",
+    "type": "FTE",
+    "branches": "ECE, ENC, EEC, EIC, ELE, MEC,",
+    "cgpa": 7.5,
+    "role": "Graduate Engineering"
+  },
+  {
+    "company": "Verizon India",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Verizon Global Network & Tech Organization"
+  },
+  {
+    "company": "Vervesemi",
+    "type": "Intern",
+    "branches": "ECE, M.E./MTech",
+    "cgpa": 8.0,
+    "role": "Analog/Digit al Design Engineer"
+  },
+  {
+    "company": "Vimo India Private Limited",
+    "type": "Intern+FTE",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Automation Engineer (Skillset: JAVA)"
+  },
+  {
+    "company": "Virbhu India Pvt Ltd",
+    "type": "Intern",
+    "branches": "ECE, ELE, ENC, EEC, EIC, MEC, MEE",
+    "cgpa": 8.0,
+    "role": "Research Scholar"
+  },
+  {
+    "company": "VirtuBox Infotech Private Limited",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, MCA",
+    "cgpa": 0,
+    "role": "Trainee - Client Success | Trainee - Product Manag"
+  },
+  {
+    "company": "Viscadia Private Limited",
+    "type": "Intern",
+    "branches": "COE, COPC, ECE, ENC, COBS, EIC, EEC, ELE, M.E./MTech,",
+    "cgpa": 7.0,
+    "role": "Intern (Gurugram)"
+  },
+  {
+    "company": "Voltas",
+    "type": "FTE",
+    "branches": "MEE",
+    "cgpa": 0,
+    "role": "GET"
+  },
+  {
+    "company": "Volvo Group India Pvt Ltd",
+    "type": "FTE",
+    "branches": "COE, COPC, COBS, ENC, ECE, MEE",
+    "cgpa": 6.5,
+    "role": "Associate Graduate Engineer"
+  },
+  {
+    "company": "Walmart Global Tech",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Software Engineer II (Level 1)"
+  },
+  {
+    "company": "Warner Bros Discovery",
+    "type": "PPO",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Software Engineer 1"
+  },
+  {
+    "company": "Wayfair",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 0,
+    "role": "Software Engineer - Intern"
+  },
+  {
+    "company": "Webcue LLC",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ECE, MCA",
+    "cgpa": 7.5,
+    "role": "Media Buyer Trainee"
+  },
+  {
+    "company": "Wex Technologies",
+    "type": "Intern",
+    "branches": "CHE",
+    "cgpa": 7.5,
+    "role": "GET"
+  },
+  {
+    "company": "Wheelseye Logi stics Pvt. Ltd",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, MEE, MEC",
+    "cgpa": 0,
+    "role": "Ad sales business development (Build Business vert"
+  },
+  {
+    "company": "WIO Bank",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS",
+    "cgpa": 7.0,
+    "role": "Junior Software Engineer"
+  },
+  {
+    "company": "WTW India",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, EEC",
+    "cgpa": 6.5,
+    "role": "Actuarial Analyst (Engineering ) - Insurance Consu"
+  },
+  {
+    "company": "Xeno",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, BME, CHE, MEC, MEE",
+    "cgpa": 0,
+    "role": "Product Manager (PM)"
+  },
+  {
+    "company": "Xeno",
+    "type": "Intern+FTE",
+    "branches": "COE, COPC, ECE, COBS, EEC, EIC, ENC",
+    "cgpa": 6.0,
+    "role": "Software Developmen t Engineering Intern"
+  },
+  {
+    "company": "Yamaha Motor India",
+    "type": "FTE",
+    "branches": "MEE, MEC",
+    "cgpa": 6.5,
+    "role": "GET - Body VIF"
+  },
+  {
+    "company": "Yotta Infrastructure",
+    "type": "FTE",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE, M.E./MTech",
+    "cgpa": 0,
+    "role": "Front End Engineer"
+  },
+  {
+    "company": "Yum India Global Services Private Limited",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EEC",
+    "cgpa": 0,
+    "role": "Site Reliability Engineer / Platform Support Engin"
+  },
+  {
+    "company": "Zhealthehr",
+    "type": "Intern+FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 9.0,
+    "role": "SDE-I"
+  },
+  {
+    "company": "Zhealthehr",
+    "type": "Intern+FTE",
+    "branches": "MEC, MEE",
+    "cgpa": 7.5,
+    "role": "Mechanical Eng Intern (Roboticist)"
+  },
+  {
+    "company": "ZS Associates",
+    "type": "Intern+FTE",
+    "branches": "B.E. All Branches",
+    "cgpa": 7.0,
+    "role": "Decision Analytics Associate (DAA)"
+  },
+  {
+    "company": "ZS Associates",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "BTSA"
+  },
+  {
+    "company": "ZS Associates",
+    "type": "Intern",
+    "branches": "Not Applicable",
+    "cgpa": 0,
+    "role": "Decision Analytics Associate"
+  },
+  {
+    "company": "Zscaler",
+    "type": "Intern",
+    "branches": "COPC, COE, COBS, ENC, ECE, EIC, EEC, ELE",
+    "cgpa": 7.5,
+    "role": "Software Developmen t"
+  }
+]

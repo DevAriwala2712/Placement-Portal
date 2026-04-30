@@ -1,6 +1,6 @@
-# Academic Architect — Placement Console
+# Placement Portal - Academic Architect
 
-A premium, full-stack Placement Cell Management System designed for modern educational institutions. Built with **React**, **Node.js/Express**, and **MySQL**, featuring a refined **Material Design 3** aesthetic and comprehensive placement workflow management.
+A premium, full-stack Placement Cell Management System designed for modern educational institutions. Built with **React (Vite)**, **Node.js/Express**, and **MySQL**, featuring a refined **Material Design 3** aesthetic and comprehensive placement workflow management.
 
 <img width="1510" height="824" alt="Screenshot 2026-04-21 at 01 49 17" src="https://github.com/user-attachments/assets/b55553bd-f5ab-4d62-b09b-0e9b6f064266" />
 <img width="1512" height="828" alt="Screenshot 2026-04-21 at 01 49 26" src="https://github.com/user-attachments/assets/ce4e46b8-dd08-4f32-9056-d4b35091d828" />
@@ -27,55 +27,85 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 ---
 
 ## 🛠️ Technology Stack
-- **Frontend**: React (Hooks, Context API), Tailwind CSS, Material Symbols.
+- **Frontend**: React (Vite, JSX), Tailwind CSS, Material Symbols.
 - **Backend**: Node.js, Express.
 - **Database**: MySQL (Connection Pooling, Prepared Statements).
-- **Auth**: JWT (JSON Web Tokens) with Bcrypt password hashing.
+- **PL/SQL**: Scripts for advanced database rules, triggers, and procedures.
 
 ---
 
-## 🚦 Getting Started
+## 🚦 Getting Started (For Development & Sharing)
+
+Follow these steps to get the project running on your local machine. This project consists of two main folders: `frontend` and `backend`.
 
 ### 1. Database Setup
-Create a MySQL database named `placement_cell` and import the schema:
-```bash
-mysql -u root -p placement_cell < database/schema.sql
-```
 
-### 2. Configure Environment
-Update `backend/.env` with your MySQL credentials:
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=placement_cell
-JWT_SECRET=your_secret_key
-PORT=5001
-```
+1. Make sure you have **MySQL** installed and running on your system.
+2. Create a new database named `placement_cell`:
+   ```sql
+   CREATE DATABASE placement_cell;
+   ```
+3. Import the provided schema and seed data into the database. You can do this via the MySQL command line or a GUI tool like MySQL Workbench:
+   ```bash
+   # In your terminal (assuming you are at the project root):
+   mysql -u root -p placement_cell < backend/database/schema.sql
+   mysql -u root -p placement_cell < backend/database/seed_data.sql
+   ```
+   *(Optional)* If you want to use advanced PL/SQL features (Triggers, Procedures), you can review and run the contents of `backend/database/plsql_logic.sql` in your SQL client.
 
-### 3. Install & Seed
-```bash
-# Install root dependencies
-npm install
+### 2. Backend Setup
 
-# Setup database tables and seed mock data
-npm run db:setup --prefix backend
-node backend/scripts/seedMockData.js
-```
+The backend handles the API and database connections.
 
-### 4. Run the Project
-```bash
-npm start
-```
-- **Frontend**: http://localhost:3001
-- **Backend**: http://localhost:5001
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up the environment variables:
+   - Copy the `backend/.env.example` file and rename it to `.env`.
+   - Update the `.env` file with your actual MySQL credentials (e.g., set your `DB_PASSWORD`).
+4. Start the backend server:
+   ```bash
+   node server.js
+   # Or use npm run dev if you have nodemon installed
+   ```
+   The backend should now be running on `http://localhost:5001`.
+
+### 3. Frontend Setup
+
+The frontend provides the user interface for students, recruiters, and admins.
+
+1. Open a new terminal window and navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the Vite development server:
+   ```bash
+   npm run dev
+   ```
+   The frontend should now be accessible at `http://localhost:5173` (or the port specified in your terminal).
 
 ---
 
 ## 🔑 Sample Credentials
-- **Admin**: `admin@college.edu` / `password`
-- **Student**: `student1@college.edu` / `password`
-- **Recruiter**: `recruiter1@company.com` / `password`
+
+Since we have seeded the database with mock data, you can use the following credentials to test the portal:
+
+- **Admin Account:**
+  - **Email:** `admin@thapar.edu`
+  - **Password:** `admin123`
+
+- **Student Account (Example):**
+  - **Email:** (Check the `users` table or register a new one)
+  - **Password:** `student123`
 
 ---
 
