@@ -68,6 +68,19 @@ From the project root:
 npm start
 ```
 
+### 5. Test the Portals
+
+1. Visit the frontend at `http://localhost:5173`.
+2. Login to the portals using the default seeded credentials:
+
+**Student Console:**
+- **Email:** `dev@thapar.edu`
+- **Password:** `password123`
+
+**Admin Console:**
+- **Email:** `admin@thapar.edu`
+- **Password:** `admin123`
+
 That starts:
 
 - Backend on `http://localhost:5001`

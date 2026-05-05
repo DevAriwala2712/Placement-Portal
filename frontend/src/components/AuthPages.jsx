@@ -63,13 +63,26 @@ export const Login = ({ onLogin }) => {
     e.preventDefault();
     setError(''); setLoading(true);
     try {
-      const res = await axios.post(`${API_URL}/auth/login`, { email: identifier, password });
-      if (res.data.user.role === 'admin') { window.location.href = '/admin/placements'; return; }
+      const res = await axios.post(`${API_URL}/login`, { email: identifier, password });
+      if (res.data.user.role === 'admin') {
+        onLogin(res.data.user);
+        navigate('/admin/placements');
+        return;
+      }
       onLogin(res.data.user);
       navigate('/');
     } catch (err) {
       setError(err.response?.data?.message || 'Invalid credentials');
     } finally { setLoading(false); }
+  };
+
+  // DEV BYPASS — skip API, set user directly
+  const devLogin = (role) => {
+    const adminUser = { name: 'Administrator', role: 'admin', email: 'admin@thapar.edu' };
+    const studentUser = { id: 2, name: 'Dev Ariwala', role: 'student', email: 'dev@thapar.edu', student_id: 2, branch: 'COE', cgpa: 8.5 };
+    const u = role === 'admin' ? adminUser : studentUser;
+    onLogin(u);
+    navigate(role === 'admin' ? '/admin/placements' : '/');
   };
 
   return (
@@ -132,7 +145,28 @@ export const Login = ({ onLogin }) => {
             </button>
           </form>
 
-          <div style={{ marginTop: 28, textAlign: 'center' }}>
+          {/* DEV MODE quick login */}
+          <div style={{ marginTop: 20, padding: '16px', background: '#fff8e1', borderRadius: 12, border: '1px dashed #f59e0b' }}>
+            <p style={{ fontSize: 11, fontWeight: 700, color: '#b45309', textTransform: 'uppercase', letterSpacing: '0.1em', margin: '0 0 10px', textAlign: 'center' }}>⚡ Dev Mode — Quick Login</p>
+            <div style={{ display: 'flex', gap: 8 }}>
+              <button
+                type="button"
+                onClick={() => devLogin('admin')}
+                style={{ flex: 1, padding: '10px', borderRadius: 10, border: 'none', cursor: 'pointer', background: '#1e3a8a', color: '#fff', fontWeight: 700, fontSize: 13 }}
+              >
+                Login as Admin
+              </button>
+              <button
+                type="button"
+                onClick={() => devLogin('student')}
+                style={{ flex: 1, padding: '10px', borderRadius: 10, border: 'none', cursor: 'pointer', background: '#065f46', color: '#fff', fontWeight: 700, fontSize: 13 }}
+              >
+                Login as Student
+              </button>
+            </div>
+          </div>
+
+          <div style={{ marginTop: 20, textAlign: 'center' }}>
             <p style={{ fontSize: 13, fontWeight: 500, color: '#434655', margin: 0 }}>
               New to the Console?{' '}
               <Link to="/register" style={{ color: '#004ac6', fontWeight: 700, textDecoration: 'none', marginLeft: 4 }}>Register Now</Link>
@@ -175,7 +209,7 @@ export const Register = ({ onLogin }) => {
     if (!agreed) { setError('Please agree to the Terms of Service.'); return; }
     setError(''); setLoading(true);
     try {
-      const res = await axios.post(`${API_URL}/auth/register`, formData);
+      const res = await axios.post(`${API_URL}/register`, formData);
       onLogin(res.data.user);
       navigate('/');
     } catch (err) {

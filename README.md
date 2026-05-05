@@ -28,9 +28,9 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 
 ## 🛠️ Technology Stack
 - **Frontend**: React (Vite, JSX), Tailwind CSS, Material Symbols.
-- **Backend**: Node.js, Express.
-- **Database**: MySQL (Connection Pooling, Prepared Statements).
-- **PL/SQL**: Scripts for advanced database rules, triggers, and procedures.
+- **Backend**: Node.js, Express (`oracledb`).
+- **Database**: Oracle Database 23c Free (Docker).
+- **PL/SQL**: Advanced database rules, triggers, functions, and stored procedures running natively in Oracle.
 
 ---
 
@@ -38,42 +38,58 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 
 Follow these steps to get the project running on your local machine. This project consists of two main folders: `frontend` and `backend`.
 
-### 1. Database Setup
+### 1. Database Setup (Oracle via Docker)
 
-1. Make sure you have **MySQL** installed and running on your system.
-2. Create a new database named `placement_cell`:
-   ```sql
-   CREATE DATABASE placement_cell;
-   ```
-3. Import the provided schema and seed data into the database. You can do this via the MySQL command line or a GUI tool like MySQL Workbench:
+This project requires Oracle Database to execute the PL/SQL engine commands.
+
+1. Ensure you have **Docker** installed.
+2. Spin up an Oracle Free container (supports ARM64 Macs):
    ```bash
-   # In your terminal (assuming you are at the project root):
-   mysql -u root -p placement_cell < backend/database/schema.sql
-   mysql -u root -p placement_cell < backend/database/seed_data.sql
+   docker run -d --name oracle-db -p 1521:1521 -e ORACLE_PASSWORD=YourPassword123 gvenzl/oracle-free
    ```
-   *(Optional)* If you want to use advanced PL/SQL features (Triggers, Procedures), you can review and run the contents of `backend/database/plsql_logic.sql` in your SQL client.
+3. Copy the database scripts into the container:
+   ```bash
+   docker cp backend/database/schema.sql oracle-db:/tmp/
+   docker cp backend/database/plsql_logic.sql oracle-db:/tmp/
+   docker cp backend/database/seed_data.sql oracle-db:/tmp/
+   ```
+4. Enter the SQL Plus CLI:
+   ```bash
+   docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1
+   ```
+5. Run the scripts in order:
+   ```sql
+   @/tmp/schema.sql
+   @/tmp/plsql_logic.sql
+   @/tmp/seed_data.sql
+   ```
+
+*(Optional GUI):* In Antigravity / VS Code, go to Extensions, install **"Oracle Developer Tools for VS Code"**, and connect using `localhost:1521`, Service Name `FREEPDB1`, User `system`, Password `YourPassword123`.
 
 ### 2. Backend Setup
 
-The backend handles the API and database connections.
+The backend handles the API and talks to the Oracle database.
 
 1. Navigate to the `backend` directory:
    ```bash
    cd backend
    ```
-2. Install the dependencies:
+2. Install the dependencies (this installs `oracledb`):
    ```bash
    npm install
    ```
-3. Set up the environment variables:
-   - Copy the `backend/.env.example` file and rename it to `.env`.
-   - Update the `.env` file with your actual MySQL credentials (e.g., set your `DB_PASSWORD`).
+3. Set up the environment variables. Ensure your `.env` contains:
+   ```env
+   DB_USER=system
+   DB_PASSWORD=YourPassword123
+   DB_CONNECTION_STRING=localhost:1521/FREEPDB1
+   PORT=5001
+   ```
 4. Start the backend server:
    ```bash
    node server.js
-   # Or use npm run dev if you have nodemon installed
    ```
-   The backend should now be running on `http://localhost:5001`.
+   The backend should now be running on `http://localhost:5001` and connected to Oracle.
 
 ### 3. Frontend Setup
 
@@ -97,15 +113,17 @@ The frontend provides the user interface for students, recruiters, and admins.
 
 ## 🔑 Sample Credentials
 
-Since we have seeded the database with mock data, you can use the following credentials to test the portal:
+### Default Test Credentials
 
-- **Admin Account:**
-  - **Email:** `admin@thapar.edu`
-  - **Password:** `admin123`
+**Administrator Portal:**
+- **Email:** `admin@thapar.edu`
+- **Password:** `admin123`
 
-- **Student Account (Example):**
-  - **Email:** (Check the `users` table or register a new one)
-  - **Password:** `student123`
+**Student Portal:**
+- **Email:** `dev@thapar.edu`
+- **Password:** `password123`
+
+## Contributing
 
 ---
 

@@ -1,8 +1,9 @@
 import React from 'react';
-import { NavLink, Outlet, useLocation, Link } from 'react-router-dom';
+import { NavLink, Outlet, useLocation, Link, useNavigate } from 'react-router-dom';
 
-const AdminLayout = () => {
+const AdminLayout = ({ user, onLogout }) => {
   const location = useLocation();
+  const navigate = useNavigate();
 
   const navItems = [
     { path: '/admin/placements', label: 'Placements', icon: 'emoji_events' },
@@ -67,17 +68,19 @@ const AdminLayout = () => {
             <span className="material-symbols-outlined" style={{ fontSize: 20 }}>settings</span>
             <span>Settings</span>
           </NavLink>
-          <Link to="/login" style={{
-            display: 'flex', alignItems: 'center', gap: 12, padding: '10px 14px',
-            borderRadius: 12, color: 'var(--secondary)', textDecoration: 'none',
-            fontSize: 14, fontWeight: 500, transition: 'all 0.2s',
-          }}
+          <button
+            onClick={() => { if (onLogout) onLogout(); navigate('/login'); }}
+            style={{
+              display: 'flex', alignItems: 'center', gap: 12, padding: '10px 14px',
+              borderRadius: 12, color: 'var(--secondary)', background: 'none', border: 'none',
+              fontSize: 14, fontWeight: 500, transition: 'all 0.2s', cursor: 'pointer', width: '100%',
+            }}
             onMouseEnter={e => e.currentTarget.style.background = 'var(--surface-container)'}
             onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
           >
             <span className="material-symbols-outlined" style={{ fontSize: 20 }}>logout</span>
             <span>Sign Out</span>
-          </Link>
+          </button>
         </div>
       </aside>
 

@@ -18,9 +18,19 @@ const API_URL = 'http://localhost:5001/api';
 
 
 const ProtectedRoute = ({ user, children }) => {
-  if (!user) {
-    return <Navigate to="/login" replace />;
-  }
+  if (!user) return <Navigate to="/login" replace />;
+  return children;
+};
+
+const AdminRoute = ({ user, children }) => {
+  if (!user) return <Navigate to="/login" replace />;
+  if (user.role !== 'admin') return <Navigate to="/" replace />;
+  return children;
+};
+
+const StudentRoute = ({ user, children }) => {
+  if (!user) return <Navigate to="/login" replace />;
+  if (user.role === 'admin') return <Navigate to="/admin/placements" replace />;
   return children;
 };
 
@@ -650,7 +660,7 @@ function App() {
         
         {/* Protected Student Routes */}
         <Route path="/*" element={
-          <ProtectedRoute user={user}>
+          <StudentRoute user={user}>
             <div className="main-layout">
               <Navbar user={user} onLogout={handleLogout} />
               <Routes>
@@ -661,11 +671,15 @@ function App() {
                 <Route path="/settings" element={<StudentSettings user={user} />} />
               </Routes>
             </div>
-          </ProtectedRoute>
+          </StudentRoute>
         } />
 
-        {/* Admin Routes (Kept as is, assuming they have their own protection or don't need it for demo) */}
-        <Route path="/admin" element={<AdminLayout />}>
+        {/* Admin Routes — protected, admin-only */}
+        <Route path="/admin" element={
+          <AdminRoute user={user}>
+            <AdminLayout user={user} onLogout={handleLogout} />
+          </AdminRoute>
+        }>
           <Route path="placements" element={<Placements />} />
           <Route path="students" element={<ManageStudents />} />
           <Route path="applications" element={<ManageApplications />} />

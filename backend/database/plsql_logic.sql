@@ -28,8 +28,8 @@ BEGIN
     END IF;
     
     -- Insert Application
-    INSERT INTO Applications (application_id, student_id, role_id, app_date, status)
-    VALUES (app_seq.NEXTVAL, p_student_id, p_role_id, SYSDATE, 'Pending');
+    INSERT INTO Applications (student_id, role_id, app_date, status)
+    VALUES (p_student_id, p_role_id, SYSDATE, 'Pending');
     
     DBMS_OUTPUT.PUT_LINE('Application submitted successfully.');
 EXCEPTION
