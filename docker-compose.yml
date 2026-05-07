@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  database:
+    image: gvenzl/oracle-free
+    container_name: oracle-db
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PASSWORD=YourPassword123
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+      - ./backend/database:/opt/oracle/scripts/setup # Scripts in this folder auto-run on startup
+
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: placement-backend
+    ports:
+      - "5001:5001"
+    environment:
+      - DB_USER=system
+      - DB_PASSWORD=YourPassword123
+      - DB_CONNECTION_STRING=database:1521/FREEPDB1
+      - PORT=5001
+    depends_on:
+      - database
+
+volumes:
+  oracle_data:
