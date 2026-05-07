@@ -1,6 +1,6 @@
 # Placement Portal - Academic Architect
 
-A premium, full-stack Placement Cell Management System designed for modern educational institutions. Built with **React (Vite)**, **Node.js/Express**, and **MySQL**, featuring a refined **Material Design 3** aesthetic and comprehensive placement workflow management.
+A premium, full-stack Placement Cell Management System designed for modern educational institutions. Built with **React (Vite)**, **Node.js/Express**, and **Oracle Database**, featuring a refined **Material Design 3** aesthetic and comprehensive placement workflow management.
 
 <img width="1510" height="824" alt="Screenshot 2026-04-21 at 01 49 17" src="https://github.com/user-attachments/assets/b55553bd-f5ab-4d62-b09b-0e9b6f064266" />
 <img width="1512" height="828" alt="Screenshot 2026-04-21 at 01 49 26" src="https://github.com/user-attachments/assets/ce4e46b8-dd08-4f32-9056-d4b35091d828" />
@@ -10,9 +10,9 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 
 ### 🚀 Placement Workflow Management
 - **Placement Board**: A real-time split view of placed vs. unplaced students with advanced filtering.
-- **Bulk Assign**: Efficiently assign multiple students to a job drive at once with built-in eligibility filtering.
+- **Application Tracking**: Admins can shortlist, accept, or reject student applications with live status updates.
 - **Eligibility Engine**: Automatic matching of students to jobs based on branch and CGPA criteria.
-- **Batch Processing**: Shortlist, accept, or reject multiple applicants in seconds.
+- **Job Capacity Management**: Automatically tracks open positions and marks roles as "Filled" using PL/SQL triggers.
 
 ### 📊 Advanced Analytics
 - **Placement Intelligence**: Live dashboard tracking placement rates, branch-wise performance, and salary trends.
@@ -20,17 +20,17 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 - **Recruiter Metrics**: Track top companies and hiring conversion rates.
 
 ### 🍱 Premium UI/UX
-- **Academic Architect Design System**: A high-end look using **Tailwind CSS**, **Glassmorphism**, and **Bento-grid** layouts.
-- **Role-Based Dashboards**: Tailored experiences for Admins, Students, and Recruiters.
-- **Responsive Shell**: Modern sidebar navigation with Material Symbols and subtle micro-animations.
+- **Console Design System**: A high-end look using **Vanilla CSS**, **Glassmorphism**, and **Bento-grid** layouts.
+- **Role-Based Dashboards**: Tailored experiences for Admins and Students.
+- **Responsive Shell**: Modern navigation with Material Symbols and smooth transitions.
 
 ---
 
 ## 🛠️ Technology Stack
-- **Frontend**: React (Vite, JSX), Tailwind CSS, Material Symbols.
+- **Frontend**: React (Vite, JSX), Vanilla CSS, Material Symbols.
 - **Backend**: Node.js, Express (`oracledb`).
 - **Database**: Oracle Database 23c Free (Docker).
-- **PL/SQL**: Advanced database rules, triggers, functions, and stored procedures running natively in Oracle.
+- **PL/SQL**: Advanced database rules, triggers, and procedures running natively in Oracle.
 
 ---
 

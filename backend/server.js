@@ -182,7 +182,9 @@ app.get('/api/jobs', asyncHandler(async (req, res) => {
     SELECT j.role_id, c.name as company, j.title, j.type_of_offer as type, 
     j.package_ctc as package, 
     j.eligibility_cgpa as cgpa,
-    j.branches_allowed as branches
+    j.branches_allowed as branches,
+    j.status,
+    j.open_positions
     FROM JobRoles j
     LEFT JOIN Companies c ON j.company_id = c.company_id
     ORDER BY j.role_id DESC
@@ -195,7 +197,9 @@ app.get('/api/jobs', asyncHandler(async (req, res) => {
       type: r.TYPE,
       package: r.PACKAGE,
       cgpa: r.CGPA,
-      branches: r.BRANCHES
+      branches: r.BRANCHES,
+      status: r.STATUS,
+      open_positions: r.OPEN_POSITIONS
   }));
 
   res.json(result);
@@ -204,6 +208,12 @@ app.get('/api/jobs', asyncHandler(async (req, res) => {
 app.post('/api/apply', asyncHandler(async (req, res) => {
   const { student_id, role_id } = req.body;
   
+  // Verify job is open
+  const job = await query('SELECT status FROM JobRoles WHERE role_id = :rid', { rid: role_id });
+  if (!job || job.length === 0 || job[0].STATUS === 'Filled') {
+    return res.status(400).json({ success: false, message: 'This position has already been filled.' });
+  }
+
   const existing = await query(
     'SELECT * FROM Applications WHERE student_id = :sid AND role_id = :rid',
     { sid: student_id, rid: role_id }

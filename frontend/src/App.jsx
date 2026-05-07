@@ -289,7 +289,9 @@ const Jobs = ({ user }) => {
               <div className="company-logo-placeholder">
                 {job.company.charAt(0)}
               </div>
-              <span className="status-pill status-open">Active</span>
+              <span className={`status-pill status-${job.status ? job.status.toLowerCase() : 'open'}`} style={{ backgroundColor: job.status === 'Filled' ? 'rgba(239, 68, 68, 0.1)' : undefined, color: job.status === 'Filled' ? 'var(--error)' : undefined }}>
+                {job.status || 'Open'} {job.status === 'Open' && `(${job.open_positions} left)`}
+              </span>
             </div>
             
             <h3 style={{ margin: '0 0 4px', fontSize: '18px', fontWeight: '700' }}>{job.title}</h3>
@@ -323,11 +325,11 @@ const Jobs = ({ user }) => {
             
             <button 
               onClick={() => handleApply(job.role_id)} 
-              className="btn btn-primary"
-              style={{ width: '100%' }}
-              disabled={applying === job.role_id}
+              className={`btn ${job.status === 'Filled' ? 'btn-ghost' : 'btn-primary'}`}
+              style={{ width: '100%', opacity: job.status === 'Filled' ? 0.6 : 1, cursor: job.status === 'Filled' ? 'not-allowed' : 'pointer' }}
+              disabled={applying === job.role_id || job.status === 'Filled'}
             >
-              {applying === job.role_id ? 'Applying...' : 'Apply Now'}
+              {job.status === 'Filled' ? 'Position Filled' : applying === job.role_id ? 'Applying...' : 'Apply Now'}
             </button>
           </div>
         ))}

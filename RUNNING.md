@@ -1,143 +1,108 @@
 # How To Run This Project
 
-This project has:
+This project is a full-stack application using a modern tech stack:
 
-- Backend: Node/Express on `http://localhost:5001`
-- Frontend: React on `http://localhost:3001`
-- Database: MySQL
+- **Backend**: Node/Express running on `http://localhost:5001`
+- **Frontend**: React (Vite) running on `http://localhost:5173`
+- **Database**: Oracle Database 23c (via Docker)
 
-## Before You Start
+---
 
-Make sure these are installed:
+## 1. Database Setup (Oracle Docker)
 
-- Node.js
-- npm
-- MySQL
+Ensure you have **Docker** installed and running.
 
-## 1. Create the Database
-
-Open MySQL and create the database:
-
-```sql
-CREATE DATABASE placement_cell;
+### Start the Oracle Container:
+```bash
+docker run -d --name oracle-db -p 1521:1521 -e ORACLE_PASSWORD=YourPassword123 gvenzl/oracle-free
 ```
 
-Then run the schema and sample data files from the project root:
+### Initialize Schema and Data:
+Run these commands from the project root to copy and execute the SQL scripts:
 
 ```bash
-mysql -u root -p placement_cell < database/schema.sql
-mysql -u root -p placement_cell < database/sample_data.sql
+# Copy scripts to container
+docker cp backend/database/schema.sql oracle-db:/tmp/
+docker cp backend/database/plsql_logic.sql oracle-db:/tmp/
+docker cp backend/database/seed_data.sql oracle-db:/tmp/
+docker cp backend/database/seed_extra.sql oracle-db:/tmp/
+docker cp backend/database/update_jobs.sql oracle-db:/tmp/
+
+# Run scripts in order
+docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1 @/tmp/schema.sql
+docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1 @/tmp/plsql_logic.sql
+docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1 @/tmp/seed_data.sql
+docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1 @/tmp/seed_extra.sql
+docker exec -it oracle-db sqlplus system/YourPassword123@//localhost:1521/FREEPDB1 @/tmp/update_jobs.sql
 ```
 
-## 2. Update Backend Config
+---
 
-Open [backend/.env](/Users/devariwala/development/Placement%20cell/backend/.env) and set your real MySQL credentials:
+## 2. Backend Setup
 
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=placement_cell
-JWT_SECRET=change_this_secret
-PORT=5001
-```
+1. Navigate to the `backend` folder:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create/Verify `.env` file:
+   ```env
+   DB_USER=system
+   DB_PASSWORD=YourPassword123
+   DB_CONNECTION_STRING=localhost:1521/FREEPDB1
+   PORT=5001
+   ```
+4. Start the server:
+   ```bash
+   node server.js
+   ```
 
-## 3. Install Dependencies
+---
 
-From the project root:
+## 3. Frontend Setup
 
-```bash
-npm install
-```
+1. Navigate to the `frontend` folder:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the Vite dev server:
+   ```bash
+   npm run dev
+   ```
 
-If needed, also install inside backend and frontend:
+---
 
-```bash
-cd backend
-npm install
-cd ../frontend
-npm install
-cd ..
-```
+## 4. Portals & Login
 
-## 4. Start the Project
+Once both are running, open your browser to:
+**http://localhost:5173**
 
-From the project root:
+### Default Test Credentials:
 
-```bash
-npm start
-```
-
-### 5. Test the Portals
-
-1. Visit the frontend at `http://localhost:5173`.
-2. Login to the portals using the default seeded credentials:
-
-**Student Console:**
-- **Email:** `dev@thapar.edu`
-- **Password:** `password123`
-
-**Admin Console:**
+**Administrator Portal:**
 - **Email:** `admin@thapar.edu`
 - **Password:** `admin123`
 
-That starts:
+**Student Portal:**
+- **Email:** `dev@thapar.edu`
+- **Password:** `password123`
 
-- Backend on `http://localhost:5001`
-- Frontend on `http://localhost:3001`
+---
 
-Open this in your browser:
+## Troubleshooting
 
-```text
-http://localhost:3001
-```
+### "ORA-12541: TNS:no listener"
+The Docker container is likely not fully started yet. Wait 30-60 seconds for Oracle to initialize services after the container starts.
 
-## If Something Fails
+### "fatal: could not read Username"
+This happens during `git push`. Use your terminal to push manually if you haven't configured a credential helper.
 
-## Database connection error
-
-Your MySQL username/password in `backend/.env` is wrong, or MySQL is not running.
-
-## Frontend opens but API fails
-
-The backend is probably not connected to MySQL, or the database tables were not imported.
-
-## Port already in use
-
-This project is configured to use:
-
-- Frontend: `3001`
-- Backend: `5001`
-
-If those ports are busy, stop the other app using them or change the ports in:
-
-- [package.json](/Users/devariwala/development/Placement%20cell/package.json)
-- [backend/.env](/Users/devariwala/development/Placement%20cell/backend/.env)
-- [backend/server.js](/Users/devariwala/development/Placement%20cell/backend/server.js)
-- [frontend/src/config/api.js](/Users/devariwala/development/Placement%20cell/frontend/src/config/api.js)
-
-## Default Login Details
-
-These email accounts are present in `database/sample_data.sql`:
-
-- Admin: `admin@college.edu`
-- Student: `student1@college.edu`
-- Recruiter: `recruiter1@company.com`
-
-Important:
-
-The sample SQL does not contain a real working password hash. The file uses a placeholder bcrypt value:
-
-```text
-$2b$10$examplehashedpassword
-```
-
-That means there is no confirmed working default password in the current seed data.
-
-The old README says the password is `password`, but the actual seeded hash in the database script does not match `password`.
-
-## Easiest Way To Get A Working Login
-
-After the project is running, register a new user from the UI.
-
-Or replace the password hashes in `database/sample_data.sql` with real bcrypt hashes before importing the sample data.
+### Port 5173 or 5001 already in use
+Check if you have other instances running. Use `lsof -i :5001` to find and kill the process if necessary.
