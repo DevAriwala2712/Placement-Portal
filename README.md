@@ -5,7 +5,7 @@ A premium, full-stack Placement Cell Management System designed for modern educa
 <img width="1510" height="824" alt="Screenshot 2026-04-21 at 01 49 17" src="https://github.com/user-attachments/assets/b55553bd-f5ab-4d62-b09b-0e9b6f064266" />
 <img width="1512" height="828" alt="Screenshot 2026-04-21 at 01 49 26" src="https://github.com/user-attachments/assets/ce4e46b8-dd08-4f32-9056-d4b35091d828" />
 
-
+Deployed Link Demo https://placement-portal-jet.vercel.app/login (partial deployment for UI)
 ## ✨ Key Features
 
 ### 🚀 Placement Workflow Management
